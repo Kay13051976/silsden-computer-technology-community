@@ -10,32 +10,55 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
-.header1 {
-  color: #fff;
+a:link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.header {
   text-align: center;
+}
+.header > a:hover h1 {
+  color: #d3cccc;
+  /* font-size: 44px; */
+  /* transition: 0.5s; */
+  /* transition-delay: 1s; */
 }
 h1 {
   background-color: #0f0f0f;
   height: 12rem;
   font-size: 40px;
-
-  padding-top: 30px;
+  letter-spacing: 4px;
+  color: #fff;
+  padding-top: 34px;
 }
-.header2 {
+
+.section-nav {
   background-color: #fff;
   font-size: 20px;
 }
-.header2-nav > ul {
+#nav-menu > ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
   list-style-type: none;
   padding-left: 40rem;
   padding-right: 40rem;
+  font-size: 20px;
 }
-.hero-img {
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+li > a {
+  color: #555;
+}
+
+li > a:hover {
+  border-bottom: 1px solid #0f0f0f;
+  color: #d3cccc;
+}
+.active {
+  border-bottom: 1px solid #0f0f0f;
+}
+#hero-img {
+  height: 500px;
+  width: 100%;
+  background: url("../images/startup-gc4918148f_1920.jpg") no-repeat center
+    center;
 }
