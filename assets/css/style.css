@@ -5,7 +5,9 @@
 * {
   box-sizing: border-box;
 }
+/* Change the scale ratio to 1rem=10px (default 1rem=16px), then convert to be %(percentage of user's browser fon-size setting)*/
 html {
+  /* font-size: 10px; */
   font-size: 62.5%;
 }
 body {
@@ -44,6 +46,7 @@ h1 {
   padding-left: 40rem;
   padding-right: 40rem;
   font-size: 20px;
+  letter-spacing: 2px;
 }
 li > a {
   color: #555;
@@ -58,7 +61,7 @@ li > a:hover {
 }
 /* hero image */
 #hero-img {
-  height: 500px;
+  height: 60rem;
   width: 100%;
   background: url("../images/startup-gc4918148f_1920.jpg") no-repeat center
     center;
@@ -69,8 +72,8 @@ li > a:hover {
   font-family: "Manrope", sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
-  width: 450px;
-  height: 170px;
+  width: 45rem;
+  height: 17rem;
   padding-top: 10px;
   padding-left: 10px;
 
@@ -79,4 +82,42 @@ li > a:hover {
   bottom: 150px;
   right: 0;
   position: absolute;
+}
+/* weekly-agenda-template */
+#weekly-agenda-template {
+  background-image: url("../images/iphone-g9fd88660b_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}
+#weekly-agenda-template div {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-display: inline;
+  white-space: nowrap;
+  letter-spacing: 2px;
+}
+#weekly-agenda-template {
+  display: flex;
+  flex-direction: rows;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#weekly-agenda-template a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #d3cccc;
+}
+#weekly-agenda-template a:hover {
+  border-bottom: 1px solid #fff;
+  color: #fff;
 }
