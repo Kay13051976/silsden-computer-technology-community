@@ -83,13 +83,20 @@ li > a:hover {
   right: 0;
   position: absolute;
 }
-/* weekly-agenda-template */
-#weekly-agenda-template {
+#footer-container {
   background-image: url("../images/iphone-g9fd88660b_1920.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   overflow: hidden;
+}
+/* weekly-agenda-template */
+#weekly-agenda-template {
+  /* background-image: url("../images/iphone-g9fd88660b_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden; */
 }
 #weekly-agenda-template div {
   border: 1px solid #fff;
