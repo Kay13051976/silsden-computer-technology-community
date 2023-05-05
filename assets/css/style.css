@@ -79,7 +79,7 @@ li > a:hover {
 
   background-color: rgba(192, 192, 192, 0.3);
 
-  bottom: 150px;
+  bottom: 190px;
   right: 0;
   position: absolute;
 }
@@ -143,14 +143,11 @@ li > a:hover {
 }
 .social-network i {
   font-size: 400%;
+  text-decoration: none;
 }
-.social-network a:hover i {
+.social-network a:hover {
   color: #0f0f0f;
   text-decoration: none;
-  width: 80px;
-  height: 80px;
-  background-color: #0f0f0f;
-  border-radius: 50%;
 }
 .sponsored-container {
   border: 1px solid #fff;
@@ -160,6 +157,10 @@ li > a:hover {
   padding: 15px;
   color: #fafafa;
 }
+.sponsored-container h3 {
+  text-align: center;
+  font-size: 30px;
+}
 .sponsored-container ul {
   list-style-type: none;
   display: flex;
@@ -167,12 +168,12 @@ li > a:hover {
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-  margin-bottom: 100px;
-  margin-top: 100px;
+  margin-bottom: 40px;
+  margin-top: 40px;
   padding: 15px;
 }
 .sponsored-logo-list i {
-  font-size: 550%;
+  font-size: 150%;
 }
 .sponsored-logo-list li {
   text-align: center;
