@@ -4,6 +4,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 /* Change the scale ratio to 1rem=10px (default 1rem=16px), then convert to be %(percentage of user's browser fon-size setting)*/
 html {
@@ -16,7 +18,7 @@ body {
 }
 .container-grid {
   display: grid;
-  grid-template-rows: 120px 120px 600px auto;
+  grid-template-rows: 240px 600px auto;
 }
 a:link {
   text-decoration: none;
@@ -32,26 +34,25 @@ a:link {
 h1 {
   background-color: #0f0f0f;
   height: 12rem;
-  font-size: 40px;
+  font-size: 44px;
   letter-spacing: 4px;
   color: #fff;
   padding-top: 34px;
 }
-/* section nav */
-.section-nav {
+/* header nav */
+.header-nav {
   background-color: #fff;
-  font-size: 20px;
+  font-size: 22px;
 }
-#nav-menu > ul {
+.header-nav-menu > ul {
   display: flex;
-  align-items: center;
+  text-align: center;
   justify-content: space-between;
   list-style-type: none;
-  padding: 40px;
   padding-left: 50rem;
   padding-right: 50rem;
-
-  font-size: 20px;
+  padding-top: 42px;
+  font-size: 24px;
   letter-spacing: 2px;
 }
 li > a {
@@ -65,70 +66,75 @@ li > a:hover {
 .active {
   border-bottom: 1px solid #0f0f0f;
 }
+/* main */
 /* hero image */
-#hero-img {
+.hero-image {
   height: 60rem;
   width: 100%;
   background: url("../images/startup-gc4918148f_1920.jpg") no-repeat center
     center;
+  position: relative;
 }
-#cover-text {
-  /* color: #fff; */
+/* hero image cover text */
+.hero-image-cover-text {
   font-size: 80%;
   font-family: "Manrope", sans-serif;
   text-transform: uppercase;
+  font-size: 20px;
   letter-spacing: 4px;
-  width: 45rem;
-  height: 17rem;
-  padding-top: 10px;
-  padding-left: 10px;
+  width: 64rem;
+  height: 20rem;
+  padding: 15px;
+  line-height: 40px;
+  background-color: rgba(192, 192, 192, 0.6);
 
-  background-color: rgba(192, 192, 192, 0.3);
-
-  bottom: 190px;
-  right: 0;
+  bottom: 80px;
+  right: 170px;
   position: absolute;
 }
-#footer-container {
+/* footer weekly agenda template */
+.footer-container {
   background-image: url("../images/iphone-g9fd88660b_1920.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   overflow: hidden;
 }
-
-#weekly-agenda-template div {
-  border: 1px solid #fff;
-  border-radius: 5px;
-  margin: 10px;
-  padding: 10px;
-  color: #fafafa;
-  background-color: rgba(0, 0, 0, 0.6);
-  font-display: inline;
-  white-space: nowrap;
-  letter-spacing: 2px;
-}
-#weekly-agenda-template {
+.footer-container-weekly-agenda-template-list {
   display: flex;
   flex-direction: rows;
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: 16px;
   padding-left: 10px;
   padding-right: 10px;
+  line-height: 32px;
 }
-#weekly-agenda-template a {
+
+.footer-container-weekly-agenda-template-list div {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  color: #fafafa;
+  font-display: inline;
+  white-space: nowrap;
+  letter-spacing: 2px;
+}
+
+.footer-container-weekly-agenda-template-list a {
   cursor: pointer;
   text-decoration: underline;
   color: #d3cccc;
 }
-#weekly-agenda-template a:hover {
+.footer-container-weekly-agenda-template-list a:hover {
   border-bottom: 1px solid #fff;
   color: #fff;
 }
-/* footer icon */
-.social-network {
+/* footer  */
+/* footer social network link */
+.footer-social-network-container-list {
   display: flex;
   flex-direction: rows;
   align-items: center;
@@ -137,44 +143,52 @@ li > a:hover {
   list-style-type: none;
   padding-left: 250px;
   padding-right: 250px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
-.social-network i {
+.footer-social-network-container-list i {
   font-size: 400%;
   text-decoration: none;
 }
-.social-network a:hover {
+.footer-social-network-container-list a:hover {
   color: #0f0f0f;
   text-decoration: none;
 }
-.sponsored-container {
+/* footer sponsored logo */
+.footer-sponsored-container {
+  display: flex;
+  flex-direction: column;
+  column-gap: 0;
   border: 1px solid #fff;
   border-radius: 5px;
-  margin-top: 20px;
+  /* margin-top: 20px;
   margin: 10px;
-  padding: 15px;
-  color: #fafafa;
+  color: #fafafa; */
 }
-.sponsored-container h3 {
+.footer-sponsored-container p {
+  color: #fafafa;
+  padding-bottom: 10px;
+}
+.footer-sponsored-container h3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
   font-size: 30px;
+  color: #fafafa;
 }
-.sponsored-container ul {
+.footer-sponsored-container ul {
   list-style-type: none;
   display: flex;
   flex-direction: rows;
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  padding: 60px;
+  padding: 40px;
 }
-.sponsored-logo-list i {
+.footer-sponsored-container-logo-list i {
   font-size: 150%;
 }
-.sponsored-logo-list li {
+.footer-sponsored-container-logo-list li {
   text-align: center;
   font-size: 22px;
 }
