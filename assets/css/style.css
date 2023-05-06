@@ -222,28 +222,31 @@ li > a:hover {
   font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 600;
+
 } */
-.container-grid main {
-  align-items: center;
+.sign-up-container-grid {
+  display: grid;
+  grid-template-rows: 240px 1000px auto;
 }
-.sign-up-main-container {
+
+.main-sign-up-container {
   display: flex;
   flex-direction: column;
-  align-content: center;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  width: 30rem;
+  min-height: 60vh;
+  width: 60rem;
   background-color: #fafafa;
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   font-family: "Roboto", sans-serif;
+  margin-left: 530px;
 }
 .form {
-  padding: 60px 50px;
-  padding-bottom: 50px;
+  padding: 40px 30px;
+  padding-bottom: 40px;
 }
-.form > h1 {
+.form > h2 {
   text-align: center;
   margin: 0 0 0 20px;
   font-size: 40px;
@@ -266,7 +269,7 @@ li > a:hover {
   width: 100%;
   padding: 10px;
   font-size: 18px;
-  margin-bottom: 26px;
+  margin-bottom: 10px;
 }
 .form-control input:focus {
   outline: 0;
