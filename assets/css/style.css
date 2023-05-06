@@ -89,7 +89,7 @@ li > a:hover {
   background-color: rgba(192, 192, 192, 0.6);
 
   bottom: 80px;
-  right: 170px;
+  right: 70px;
   position: absolute;
 }
 /* footer weekly agenda template */
@@ -141,18 +141,21 @@ li > a:hover {
   justify-content: center;
   justify-content: space-between;
   list-style-type: none;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 300px;
+  padding-right: 300px;
   margin-top: 60px;
   margin-bottom: 60px;
 }
+.footer-social-network-container-list a {
+  text-decoration-style: none;
+}
 .footer-social-network-container-list i {
   font-size: 400%;
-  text-decoration: none;
+  text-decoration-style: none;
+  color: #f7f9f5;
 }
 .footer-social-network-container-list a:hover {
-  color: #0f0f0f;
-  text-decoration: none;
+  text-decoration-style: none;
 }
 /* footer sponsored logo */
 .footer-sponsored-container {
@@ -161,15 +164,16 @@ li > a:hover {
   column-gap: 0;
   border: 1px solid #fff;
   border-radius: 5px;
-  /* margin-top: 20px;
-  margin: 10px;
-  color: #fafafa; */
 }
-.footer-sponsored-container p {
+.footer-sponsored-container-logo-list-top p {
   color: #fafafa;
   padding-bottom: 10px;
 }
-.footer-sponsored-container h3 {
+.footer-sponsored-container-logo-list-bottom p {
+  color: #fafafa;
+  padding-bottom: 10px;
+}
+.footer-sponsored-container > h4 {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
@@ -179,16 +183,29 @@ li > a:hover {
 .footer-sponsored-container ul {
   list-style-type: none;
   display: flex;
-  flex-direction: rows;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   justify-content: space-between;
   padding: 40px;
 }
-.footer-sponsored-container-logo-list i {
-  font-size: 150%;
+.footer-sponsored-container-logo-list-top {
+  margin-right: 25px;
 }
-.footer-sponsored-container-logo-list li {
+.footer-sponsored-container-logo-list-top i {
+  font-size: 150%;
+  color: #ffffff;
+}
+.footer-sponsored-container-logo-list-bottom i {
+  font-size: 150%;
+  color: #ffffff;
+}
+.footer-sponsored-container-logo-list-top li {
+  text-align: center;
+  font-size: 22px;
+  padding-right: 45px;
+}
+.footer-sponsored-container-logo-list-bottom li {
   text-align: center;
   font-size: 22px;
 }
