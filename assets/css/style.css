@@ -215,12 +215,16 @@ li > a:hover {
 /* about style start */
 .about-container {
   display: grid;
-  grid-template-rows: 240px 1100px auto;
+  grid-template-rows: 100px 300px 800px auto;
   text-align: center;
   border: 3px solid #555;
   border-radius: 7px;
   margin-top: 20px;
   margin: 5px;
+}
+.about-container-organization-story {
+  line-height: 50px;
+  font-size: 28px;
 }
 .about-container img {
   width: 1600px;
@@ -232,7 +236,7 @@ li > a:hover {
   background-color: #fff;
   color: #0f0f0f;
 }
-.about-container-staff-site-map-picture img {
+.about-container-organizational-chart img {
   width: 100px;
   height: 100px;
 }
