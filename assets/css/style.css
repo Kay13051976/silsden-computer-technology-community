@@ -215,12 +215,15 @@ li > a:hover {
 /* about style start */
 .about-container {
   display: grid;
-  grid-template-rows: 100px 300px 800px auto;
+  grid-template-rows: 100px 300px 900px auto;
   text-align: center;
   border: 3px solid #555;
   border-radius: 7px;
-  margin-top: 20px;
+  margin-top: 40px;
   margin: 5px;
+}
+.about-container > p {
+  padding: 20px;
 }
 .about-container-organization-story {
   line-height: 50px;
@@ -230,15 +233,63 @@ li > a:hover {
   width: 1600px;
   height: 700px;
   align-items: center;
+  margin-top: 60px;
+
   margin-left: 30px;
 }
-.about-container h1 {
+.about-container h2 {
   background-color: #fff;
   color: #0f0f0f;
+  margin-top: 40px;
+  font-size: 40px;
+}
+.about-container h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.about-container-organizational-chart h4 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 150px;
 }
 .about-container-organizational-chart img {
   width: 100px;
   height: 100px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  border: 3px solid black;
+}
+.about-container hr {
+  border-top: 3px solid black;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 150px;
+}
+.about-container-organizational-chart-manager {
+  margin-bottom: 200px;
+}
+.about-container-organizational-chart-colleague {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 300px;
+}
+.about-container-organizational-chart li {
+  align-items: center;
+  justify-content: center;
+}
+.about-container-organizational-chart img {
+}
+.about-container-organizational-chart p {
+  text-align: center;
+  line-height: 28px;
+  font-size: 22px;
 }
 /* about style end */
 
