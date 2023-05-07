@@ -232,6 +232,10 @@ li > a:hover {
   background-color: #fff;
   color: #0f0f0f;
 }
+.about-container-staff-site-map-picture img {
+  width: 100px;
+  height: 100px;
+}
 /* about style end */
 
 /* sign-up style start */
