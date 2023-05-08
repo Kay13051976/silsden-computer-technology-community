@@ -53,5 +53,5 @@ Returning Visitor Goals:
 - As a Returning Visitor, I want to see information about technology and link to the appropriate study website and event, support choices, Tech career opportunities and make decisions.
 
 Frequent Visitor Goals:
-. As a Frequent User, I want to check for any changes with an available course, event, or computer technology news, IT job requirements
-. As a Frequent User, I want options for contacting the organization to get a career opportunity.
+- As a Frequent User, I want to check for any changes with an available course, event, or computer technology news, IT job requirements
+- As a Frequent User, I want options for contacting the organization to get a career opportunity
