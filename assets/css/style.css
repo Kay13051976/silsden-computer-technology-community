@@ -142,12 +142,16 @@ li > a:hover {
 /* footer  */
 /* footer social network link */
 .footer-social-network-container-list {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.footer-social-network-container-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
   list-style-type: none;
-  padding-left: 300px;
-  padding-right: 300px;
+  margin-left: 260px;
+  margin-right: 260px;
   margin-top: 60px;
   margin-bottom: 60px;
 }
