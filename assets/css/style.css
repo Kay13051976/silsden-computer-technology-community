@@ -221,13 +221,21 @@ li > a:hover {
   border-radius: 7px;
   margin-top: 40px;
   margin: 5px;
-}
-.about-container > p {
-  padding: 20px;
+  position: relative;
 }
 .about-container-organization-story {
   line-height: 50px;
-  font-size: 28px;
+}
+.about-container-organization-story p {
+  color: #555;
+  margin: 30px;
+  font-size: 24px;
+}
+.about-container span {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #0f0f0f;
 }
 .about-container img {
   width: 1600px;
@@ -237,21 +245,39 @@ li > a:hover {
 
   margin-left: 30px;
 }
+.about-container-organizational-chart h3 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 150px;
+}
+.about-container-organizational-chart-manager-line {
+  border: 3px solid black;
+  border-bottom: hidden;
+  width: 1280px;
+  height: 140px;
+  position: absolute;
+  right: 230px;
+  margin-top: 0;
+}
+.about-container-organizational-chart-manager-line-inner {
+  border: 3px solid black;
+  border-top: hidden;
+  border-bottom: hidden;
+
+  width: 430px;
+  height: 140px;
+  position: absolute;
+  right: 430px;
+  margin-top: 0;
+}
+
 .about-container h2 {
   background-color: #fff;
   color: #0f0f0f;
   margin-top: 40px;
   font-size: 40px;
 }
-.about-container h3 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.about-container-organizational-chart h4 {
-  text-align: center;
-  font-size: 50px;
-  margin-bottom: 150px;
-}
+
 .about-container-organizational-chart img {
   width: 100px;
   height: 100px;
@@ -266,7 +292,7 @@ li > a:hover {
   margin-bottom: 150px;
 }
 .about-container-organizational-chart-manager {
-  margin-bottom: 200px;
+  margin-bottom: 30px;
 }
 .about-container-organizational-chart-colleague {
   display: flex;
@@ -279,17 +305,20 @@ li > a:hover {
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 300px;
+  margin-top: 130px;
 }
 .about-container-organizational-chart li {
   align-items: center;
   justify-content: center;
 }
-.about-container-organizational-chart img {
-}
+/* .about-container-organizational-chart {
+  position: absolute;
+} */
 .about-container-organizational-chart p {
   text-align: center;
   line-height: 28px;
   font-size: 22px;
+  color: #555;
 }
 /* about style end */
 
