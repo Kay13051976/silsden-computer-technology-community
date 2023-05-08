@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:wght@700&display=swap");
 /* home page style start*/
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -45,13 +46,17 @@ h1 {
   background-color: #fff;
   font-size: 22px;
 }
+.header-nav-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
 .header-nav-menu > ul {
   display: flex;
   text-align: center;
   justify-content: space-between;
   list-style-type: none;
-  padding-left: 50rem;
-  padding-right: 50rem;
+  padding-left: 1fr;
+  padding-right: 1fr;
   padding-top: 42px;
   font-size: 24px;
   letter-spacing: 2px;
