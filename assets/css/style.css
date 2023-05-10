@@ -72,6 +72,7 @@ li > a:hover {
 .active {
   border-bottom: 1px solid #0f0f0f;
 }
+/* header end */
 /* main */
 /* hero image */
 .main-grid {
@@ -181,15 +182,31 @@ li > a:hover {
   width: 200px;
   height: 200px;
 }
+/* main end */
 /* footer */
-.footer-container-template-sponsored {
+.footer-container-template {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
 }
 .footer-container-template-sponsored {
   display: flex;
   flex-direction: column;
   row-gap: 40px;
+  column-gap: 60px;
   align-items: center;
   justify-content: space-between;
+  text-decoration: none;
+}
+.footer-container-template-sponsored ul {
+  display: flex;
+  flex-direction: row;
+  row-gap: 60px;
+  justify-content: space-between;
+}
+.footer-container-template-sponsored ul li {
+  justify-content: space-between;
+  text-decoration: none;
 }
 .footer-container-template-sponsored {
   height: 500px;
@@ -212,7 +229,6 @@ li > a:hover {
   background-color: #999;
 }
 
-/* footer  */
 /* footer social network link */
 .footer-social-network-container-list {
   display: grid;
@@ -247,59 +263,7 @@ li > a:hover {
   text-decoration: none;
 }
 /* footer sponsored logo */
-.footer-container-grid {
-  display: grid;
-  grid-template-rows: 600px 300px;
-}
-.footer-container-template {
-  display: flex;
-  flex-direction: row;
-}
 
-.footer-sponsored-container-logo-list-top p {
-  color: #fafafa;
-  padding-bottom: 10px;
-}
-.footer-sponsored-container-logo-list-bottom p {
-  color: #fafafa;
-  padding-bottom: 10px;
-}
-.footer-sponsored-container > h4 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: center;
-  font-size: 30px;
-  color: #fafafa;
-}
-.footer-sponsored-container ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-between;
-  padding: 40px;
-}
-.footer-sponsored-container-logo-list-top {
-  margin-right: 25px;
-}
-.footer-sponsored-container-logo-list-top i {
-  font-size: 150%;
-  color: #ffffff;
-}
-.footer-sponsored-container-logo-list-bottom i {
-  font-size: 150%;
-  color: #ffffff;
-}
-.footer-sponsored-container-logo-list-top li {
-  text-align: center;
-  font-size: 22px;
-  padding-right: 45px;
-}
-.footer-sponsored-container-logo-list-bottom li {
-  text-align: center;
-  font-size: 22px;
-}
 /* home page style end*/
 
 /* about style start */
