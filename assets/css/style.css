@@ -20,7 +20,7 @@ body {
 }
 .container-grid {
   display: grid;
-  grid-template-rows: 240px 1900px auto;
+  grid-template-rows: 240px auto auto;
 }
 a:link {
   text-decoration: none;
@@ -80,12 +80,12 @@ li > a:hover {
   grid-template-rows: 1fr 1fr;
 }
 .hero-image {
-  height: 60rem;
   width: 100%;
-  height: 950px;
+  height: 100%;
   background: url("../images/startup-gc4918148f_1920.jpg") no-repeat center
     center;
   position: relative;
+  background-size: cover;
 }
 /* hero image cover text */
 .hero-image-cover-text {
@@ -112,6 +112,7 @@ li > a:hover {
   width: 100%;
   overflow: hidden;
 }
+/* weekly agenda template */
 .weekly-agenda-template-list {
   display: flex;
   flex-direction: rows;
@@ -145,51 +146,65 @@ li > a:hover {
   border-bottom: 1px solid #fff;
   color: #fff;
 }
-.main-testimonials-box {
+/* testimonials */
+.testimonials-box {
   margin-top: 60px;
 }
-.main-testimonials-box > h2 {
-  font-size: 30px;
+.testimonials-box > h2 {
+  color: #252525;
+  font-size: 40px;
   text-align: center;
   margin-bottom: 50px;
 }
 .testimonials {
   display: flex;
-  flex-direction: row;
   width: 100%;
   gap: 60px;
-  align-items: center;
-  justify-content: space-between;
+
   font-size: 24px;
   padding-left: 20px;
   padding-right: 20px;
   line-height: 32px;
   color: #f0f0f0;
+  letter-spacing: 2px;
+  font-weight: 300;
 }
 
 .testimonials-template div {
   border: 2px solid white;
   border-radius: 5px;
   width: 450px;
-  height: 600px;
+  height: 680px;
   margin: 10px;
   padding: 10px;
   color: #fafafa;
   font-display: inline;
   letter-spacing: 2px;
 }
+.testimonials-template {
+  align-content: center;
+  margin-bottom: 30px;
+}
 .testimonials-template > img {
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 170px;
+  margin-top: 30px;
+  margin-left: 110px;
 }
 /* main end */
+
 /* footer */
 .footer-container-template {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
   line-height: 40px;
+  margin-top: 30px;
 }
+.footer-container-template-sponsored > h4 {
+  color: #252525;
+}
+
 .footer-container-template-sponsored {
   display: flex;
   flex-direction: column;
@@ -199,6 +214,10 @@ li > a:hover {
   justify-content: space-between;
   color: #f0f0f0;
   font: 50px;
+}
+.footer-container-template-sponsored h4 {
+  font-size: 24px;
+  margin-top: 26px;
 }
 .footer-container-template-sponsored ul {
   display: flex;
@@ -229,8 +248,18 @@ li > a:hover {
   padding: 20px;
   color: #f0f0f0;
 }
+.footer-container-template-contact > h4 {
+  color: #252525;
+}
 .footer-container-template-contact > p {
   color: #f0f0f0;
+}
+.footer-container-template-contact a {
+  color: #333;
+}
+.footer-container-template-contact a:hover {
+  color: #7b7373;
+  cursor: pointer;
 }
 .footer-container-template-copy-right {
   border: 2px solid white;
@@ -239,7 +268,9 @@ li > a:hover {
   padding: 20px;
   color: #f0f0f0;
 }
-
+.footer-container-template-copy-right > h4 {
+  color: #252525;
+}
 .footer-container {
   background-color: #999;
 }
