@@ -212,8 +212,10 @@ li > a:hover {
   column-gap: 90px;
   align-items: center;
   justify-content: space-between;
-  color: #f0f0f0;
   font: 50px;
+  color: #f0f0f0;
+  border: 2px solid white;
+  padding-bottom: 50px;
 }
 .footer-container-template-sponsored h4 {
   font-size: 24px;
@@ -237,10 +239,7 @@ li > a:hover {
   row-gap: 110px;
   column-gap: 90px;
 }
-.footer-container-template-sponsored {
-  border: 2px solid white;
-  padding-bottom: 40px;
-}
+
 .footer-container-template-contact {
   border: 2px solid white;
   text-align: center;
