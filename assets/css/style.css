@@ -293,7 +293,9 @@ li > a:hover {
   margin-top: 60px;
   margin-bottom: 60px;
 }
-
+.footer-social-network-container {
+  padding-bottom: 30px;
+}
 .footer-social-network-container-list > a {
   text-decoration: none;
 }
@@ -352,7 +354,7 @@ li > a:hover {
 
 .about-container h2 {
   background-color: #fff;
-  color: #0f0f0f;
+  color: #252525;
   margin-top: 40px;
   font-size: 40px;
 }
@@ -398,6 +400,23 @@ li > a:hover {
   line-height: 28px;
   font-size: 22px;
   color: #555;
+}
+
+.activity-container h4 {
+  font-size: 36px;
+  color: #252525;
+  margin-bottom: 60px;
+}
+.activity-photos {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+  row-gap: 0;
+}
+.activity-photos img {
+  width: 350px;
+  height: 300px;
 }
 /* about style end */
 
