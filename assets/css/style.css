@@ -469,4 +469,10 @@ li > a:hover {
   outline: 0;
   border-color: #999;
 }
+.footer-container-copy-right {
+  text-align: center;
+  font-size: 18px;
+  color: #252525;
+  padding-top: 40px;
+}
 /* sign-up style end */
