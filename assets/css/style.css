@@ -149,7 +149,6 @@ li > a:hover {
   margin-top: 60px;
 }
 .main-testimonials-box > h2 {
-  color: #f0f0f0;
   font-size: 30px;
   text-align: center;
   margin-bottom: 50px;
@@ -165,6 +164,7 @@ li > a:hover {
   padding-left: 20px;
   padding-right: 20px;
   line-height: 32px;
+  color: #f0f0f0;
 }
 
 .testimonials-template div {
@@ -188,41 +188,56 @@ li > a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
+  line-height: 40px;
 }
 .footer-container-template-sponsored {
   display: flex;
   flex-direction: column;
   row-gap: 40px;
-  column-gap: 60px;
+  column-gap: 90px;
   align-items: center;
   justify-content: space-between;
-  text-decoration: none;
+  color: #f0f0f0;
+  font: 50px;
 }
 .footer-container-template-sponsored ul {
   display: flex;
   flex-direction: row;
-  row-gap: 60px;
+  row-gap: 30px;
   justify-content: space-between;
+  list-style-type: none;
 }
-.footer-container-template-sponsored ul li {
+.footer-container-template-sponsored li {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  text-decoration: none;
+  font-size: 50px;
+}
+
+.footer-sponsored-container-logo-list {
+  row-gap: 110px;
+  column-gap: 90px;
 }
 .footer-container-template-sponsored {
-  height: 500px;
   border: 2px solid white;
+  padding-bottom: 40px;
 }
 .footer-container-template-contact {
-  height: 500px;
   border: 2px solid white;
   text-align: center;
-  font-size: 28px;
+  font-size: 22px;
+  padding: 20px;
+  color: #f0f0f0;
+}
+.footer-container-template-contact > p {
+  color: #f0f0f0;
 }
 .footer-container-template-copy-right {
-  height: 500px;
   border: 2px solid white;
   text-align: center;
-  font-size: 28px;
+  font-size: 22px;
+  padding: 20px;
+  color: #f0f0f0;
 }
 
 .footer-container {
@@ -248,9 +263,7 @@ li > a:hover {
   margin-top: 60px;
   margin-bottom: 60px;
 }
-/* .footer-social-network-container-list li > a:hover {
-  text-decoration: none;
-} */
+
 .footer-social-network-container-list > a {
   text-decoration: none;
 }
@@ -262,7 +275,9 @@ li > a:hover {
   color: #555;
   text-decoration: none;
 }
-/* footer sponsored logo */
+.footer-social-network-container-list a:hover {
+  text-decoration: none;
+}
 
 /* home page style end*/
 
