@@ -191,8 +191,9 @@ li > a:hover {
   margin-top: 30px;
   margin-left: 110px;
 }
-.testimonials-business-man-picture {
-  padding-top: 25px;
+
+.testimonials-business-man-picture > img {
+  height: 190px;
 }
 /* main end */
 
