@@ -361,7 +361,7 @@ li > a:hover {
 .about-container h2 {
   background-color: #fff;
   color: #252525;
-  margin-top: 40px;
+  margin-top: 80px;
   font-size: 40px;
 }
 
@@ -374,6 +374,7 @@ li > a:hover {
 }
 .about-container hr {
   border-top: 3px solid black;
+  margin-top: 60px;
   margin-left: 150px;
   margin-right: 150px;
   margin-bottom: 150px;
