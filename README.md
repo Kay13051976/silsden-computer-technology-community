@@ -56,3 +56,4 @@ Frequent Visitor Goals:
 - As a Frequent User, I want to check for any changes with an available course, event, or computer technology news, IT job requirements
 - As a Frequent User, I want options for contacting the organization to get a career opportunity
 
+![wireframes](/workspace/silsden-computer-tecnology-community.com/assets/images/wireframes/Screenshot 2023-05-09 at 22.40.22.png)
