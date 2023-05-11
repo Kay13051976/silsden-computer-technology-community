@@ -27,6 +27,11 @@ a:link {
   cursor: pointer;
 }
 /* header  */
+.header-container {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
 .header {
   text-align: center;
 }
@@ -45,6 +50,7 @@ h1 {
 .header-nav {
   background-color: #fff;
   font-size: 22px;
+  height: 110px;
 }
 .header-nav-grid {
   display: grid;
