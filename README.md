@@ -55,3 +55,6 @@ Returning Visitor Goals:
 Frequent Visitor Goals:
 - As a Frequent User, I want to check for any changes with an available course, event, or computer technology news, IT job requirements
 - As a Frequent User, I want options for contacting the organization to get a career opportunity
+![Wireframes home page](assets/images/wireframes/Screenshot 2023-05-09 at 22.40.22.png)
+![Wireframes about page](assets/images/wireframes/Screenshot 2023-05-09 at 22.40.38.png)
+![Wireframes sign up page](assets/images/wireframes/Screenshot 2023-05-09 at 22.40.54.png)
