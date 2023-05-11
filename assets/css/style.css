@@ -318,7 +318,10 @@ li > a:hover {
 /* home page style end*/
 
 /* about style start */
-
+.footer-container-about {
+  height: 40vh;
+  background-color: #999;
+}
 .about-container-gird {
   display: grid;
   grid-template-rows: 10rem 30rem 90rem auto;
