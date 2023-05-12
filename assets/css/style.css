@@ -18,18 +18,18 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
-.container-grid {
+.body-container {
   display: grid;
-  grid-template-rows: 320px auto auto;
+  grid-template-rows: 280px auto auto;
 }
 a:link {
   text-decoration: none;
   cursor: pointer;
 }
-/* header  */
+/* header start */
 .header-container {
   display: grid;
-  grid-template-rows: 160px 150px;
+  grid-template-rows: 160px 120px;
 }
 .header {
   height: 160px;
@@ -48,7 +48,7 @@ h1 {
   color: #fff;
   padding-top: 50px;
 }
-/* header nav */
+/* header nav start */
 .header-nav {
   text-align: center;
   position: fixed;
@@ -128,40 +128,10 @@ h1 {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
 }
-/* header nav */
-/*.header-nav {
-  background-color: #fff;
-  font-size: 22px;
-  height: 110px;
-}
-.header-nav-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-}
-.header-nav-menu > ul {
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-  list-style-type: none;
-  padding-left: 1fr;
-  padding-right: 1fr;
-  padding-top: 42px;
-  font-size: 24px;
-  letter-spacing: 2px;
-}
-li > a {
-  color: #555;
-}
-
-li > a:hover {
-  border-bottom: 1px solid #0f0f0f;
-  color: #d3cccc;
-}
-.active {
-  border-bottom: 1px solid #0f0f0f;
-}*/
+/* header nav end*/
 /* header end */
-/* main */
+
+/* main start*/
 /* hero image */
 .main-grid {
   display: grid;
@@ -285,7 +255,7 @@ li > a:hover {
 }
 /* main end */
 
-/* footer */
+/* footer start*/
 .footer-container-template {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -402,7 +372,7 @@ li > a:hover {
 .footer-social-network-container-list a:hover {
   text-decoration: none;
 }
-
+/* footer end */
 /* home page style end*/
 
 /* about style start */
@@ -519,10 +489,7 @@ li > a:hover {
   column-gap: 0;
   row-gap: 0;
 }
-/* .activity-photos img {
-  width: 350px;
-  height: 300px;
-} */
+
 /* about style end */
 
 /* sign-up style start */
@@ -600,21 +567,29 @@ li > a:hover {
   padding-top: 40px;
 }
 /* sign-up style end */
-/* media query */
+
+/* media query start*/
 @media screen and (min-width: 800px) {
   .nav-toggle-label {
     display: none;
   }
   .header-nav {
+    background-color: #ffffff;
+    margin-top: 160px;
+    height: 120px;
+  }
+  .header-nav-menu {
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
   }
   .header-nav-menu {
     all: unset;
-    grid-column: 3 / 4;
+    grid-column: 2/ 3;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+    margin-top: 50px;
+    background-color: #ffffff;
   }
   .header-nav-menu a {
     opacity: 1;
@@ -631,7 +606,7 @@ li > a:hover {
     content: "";
     display: block;
     height: 5px;
-    background: white;
+    background: #252525;
     position: absolute;
     bottom: -0.75em;
     left: 0;
@@ -644,3 +619,4 @@ li > a:hover {
     transform: scale(1, 1);
   }
 }
+/* media query end */
