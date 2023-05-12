@@ -20,7 +20,7 @@ body {
 }
 .container-grid {
   display: grid;
-  grid-template-rows: 240px auto auto;
+  grid-template-rows: 320px auto auto;
 }
 a:link {
   text-decoration: none;
@@ -28,26 +28,108 @@ a:link {
 }
 /* header  */
 .header-container {
+  display: grid;
+  grid-template-rows: 160px 150px;
+}
+.header {
+  height: 160px;
+  text-align: center;
+  background-color: #0f0f0f;
   position: fixed;
   z-index: 999;
   width: 100%;
-}
-.header {
-  text-align: center;
 }
 .header > a:hover h1 {
   color: #d3cccc;
 }
 h1 {
-  background-color: #0f0f0f;
-  height: 12rem;
   font-size: 44px;
   letter-spacing: 4px;
   color: #fff;
-  padding-top: 34px;
+  padding-top: 50px;
 }
 /* header nav */
 .header-nav {
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 150px;
+}
+.nav-toggle {
+  display: none;
+}
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: #ffffff;
+  height: 4px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
+}
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: "";
+  position: absolute;
+}
+.nav-toggle-label span::before {
+  bottom: 9px;
+}
+.nav-toggle-label span::after {
+  top: 9px;
+}
+
+.header-nav-menu {
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  background-color: #f0f0f0;
+  width: 100%;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+.header-nav-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header-nav-menu li {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+.header-nav-menu a {
+  color: #252525;
+  text-decoration: none;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+.header-nav-menu a:hover {
+  color: #999;
+}
+.nav-toggle:checked ~ .header-nav-menu {
+  transform: scale(1, 1);
+}
+.nav-toggle:checked ~ .header-nav-menu a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
+}
+/* header nav */
+/*.header-nav {
   background-color: #fff;
   font-size: 22px;
   height: 110px;
@@ -77,7 +159,7 @@ li > a:hover {
 }
 .active {
   border-bottom: 1px solid #0f0f0f;
-}
+}*/
 /* header end */
 /* main */
 /* hero image */
@@ -518,3 +600,47 @@ li > a:hover {
   padding-top: 40px;
 }
 /* sign-up style end */
+/* media query */
+@media screen and (min-width: 800px) {
+  .nav-toggle-label {
+    display: none;
+  }
+  .header-nav {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
+  }
+  .header-nav-menu {
+    all: unset;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .header-nav-menu a {
+    opacity: 1;
+    position: relative;
+  }
+  .header-nav-menu ul {
+    display: flex;
+  }
+  .header-nav-menu li {
+    margin-left: 3em;
+    margin-bottom: 0;
+  }
+  .header-nav-menu a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background: white;
+    position: absolute;
+    bottom: -0.75em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transform-origin: left;
+    transition: transform ease-in-out 250ms;
+  }
+  .header-nav-menu a:hover::before {
+    transform: scale(1, 1);
+  }
+}
