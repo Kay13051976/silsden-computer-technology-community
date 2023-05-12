@@ -511,7 +511,7 @@ h1 {
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   font-family: "Roboto", sans-serif;
-  margin-left: 40rem;
+  margin-left: 45rem;
   margin-top: 50px;
 }
 .form {
@@ -618,7 +618,28 @@ h1 {
   }
   .header-nav-menu a:hover::before {
     transform: scale(1, 1);
-    /* header nav end */
+  }
+  /* header nav end */
+}
+
+@media screen and (max-width: 950px) {
+  .hero-image-cover-text {
+    left: 0;
+  }
+  .weekly-agenda-template-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-container-organizational-chart-colleague {
+    display: flex;
+    flex-direction: column;
+  }
+  .sign-up-container {
+    margin-left: 10px;
   }
 }
 /* media query end */
