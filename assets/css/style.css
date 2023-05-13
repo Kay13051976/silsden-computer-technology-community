@@ -609,6 +609,13 @@ h1 {
   }
 }
 /* header nav end */
+@media screen and (max-width: 950px) {
+  h1 {
+    font-size: 26px;
+    margin-left: 35px;
+    margin-top: 20px;
+  }
+}
 
 @media screen and (max-width: 950px) {
   .main-hero-image-cover-text {
