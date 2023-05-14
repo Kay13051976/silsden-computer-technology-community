@@ -174,10 +174,8 @@ h1 {
 /* weekly agenda template */
 .main-weekly-agenda-template-list {
   display: flex;
-  flex-direction: rows;
   width: 100%;
   align-items: center;
-  justify-content: center;
   justify-content: space-between;
   font-size: 16px;
   padding-left: 10px;
@@ -191,7 +189,6 @@ h1 {
   margin: 10px;
   padding: 10px;
   color: #fafafa;
-  font-display: inline;
   white-space: nowrap;
   letter-spacing: 2px;
 }
@@ -236,11 +233,10 @@ h1 {
   margin: 10px;
   padding: 10px;
   color: #fafafa;
-  font-display: inline;
   letter-spacing: 2px;
 }
 .main-testimonials-template {
-  align-content: center;
+  /* align-content: center; */
   margin-bottom: 30px;
 }
 .main-testimonials-template > img {
@@ -545,8 +541,8 @@ h1 {
 }
 .form button {
   cursor: pointer;
-  background-color: f8f9fa;
-  border: 3px solid bfc0c0;
+  background-color: #f8f9fa;
+  border: 3px solid #bfc0c0;
   width: 100%;
   font-size: 24px;
   padding: 10px;
