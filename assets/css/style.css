@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@700&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:wght@700&display=swap");
 /* home page style start*/
 *,
@@ -476,6 +475,9 @@ h1 {
   column-count: 4;
   column-gap: 0;
   row-gap: 0;
+}
+.about-activity-photos-space {
+  border: 0;
 }
 
 /* about style end here*/
