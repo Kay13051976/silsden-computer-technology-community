@@ -232,7 +232,7 @@ h1 {
   border: 2px solid white;
   border-radius: 5px;
   width: 450px;
-  height: 680px;
+  height: auto;
   margin: 10px;
   padding: 10px;
   color: #fafafa;
@@ -244,14 +244,17 @@ h1 {
   margin-bottom: 30px;
 }
 .main-testimonials-template > img {
+  display: flex;
   width: 160px;
   height: 160px;
-  margin-top: 20px;
-  margin-left: 110px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  align-items: center;
+  margin-left: 28%;
 }
 
 .main-testimonials-business-man-picture > img {
-  height: 176px;
+  height: 190px;
 }
 /* main end here*/
 
@@ -632,7 +635,7 @@ h1 {
   }
   .main-testimonials-template-list {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 20px;
   }
   .footer-container-template {
