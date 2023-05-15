@@ -58,5 +58,10 @@ Frequent Visitor Goals:
 
 
 
-
+### wireframes 
+Wireframes 
+Desktop
+![Home page](documentation/wireframe_home_page.png)
+![About page](documentation/wireframe_about_page.png)
+![Sign up page](documentation/wireframe_sign_up_page.png)
 
