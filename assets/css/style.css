@@ -472,12 +472,17 @@ h1 {
 }
 .about-activity-container {
   text-align: center;
+  margin-bottom: 20px;
 }
 .about-activity-container h4 {
   font-size: 36px;
   color: #252525;
   margin-bottom: 60px;
   text-align: center;
+}
+.about-activity-photos img {
+  width: 340px;
+  height: 300px;
 }
 .about-activity-photos {
   clear: both;
@@ -488,7 +493,7 @@ h1 {
 }
 .about-activity-photos-space {
   border: 0;
-  height: 500px;
+  height: auto;
   border: 0;
 }
 
