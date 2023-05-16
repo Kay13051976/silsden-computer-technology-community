@@ -41,6 +41,8 @@ Happy coding!
 
 Silsden computer technology community.com is the website for people living in Silsden to support anybody interested in computer technology. Our primary purpose is to open the gate and connect them to the correct link and support. We also introduce computer technology to the community with the event and free study class for the beginner.
 
+The site can be accessed by the link [a link](https://kay13051976.github.io/silsden-computer-tecnology-community.com/)
+
 Use Stories
 First-Time Visitor Goals:
 - As a First-Time Visitor, I want to quickly understand the site's primary purpose to learn more about the organization.
