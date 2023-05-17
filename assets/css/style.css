@@ -546,7 +546,7 @@ h1 {
   margin-bottom: 5px;
 }
 .form-control input {
-  border: 2px solid #f0f0f0;
+  border: 2px solid #252525;
   width: 100%;
   padding: 10px;
   font-size: 18px;
@@ -554,12 +554,12 @@ h1 {
 }
 .form-control input:focus {
   outline: 0;
-  border-color: #777;
+  border-color: #84b4ff;
 }
 .form button {
   cursor: pointer;
   background-color: #f8f9fa;
-  border: 3px solid #bfc0c0;
+  border: 3px solid #252525;
   width: 100%;
   font-size: 24px;
   padding: 10px;
@@ -567,7 +567,7 @@ h1 {
 }
 .form button:hover {
   outline: 0;
-  border-color: #999;
+  border-color: #84b4ff;
 }
 .footer-container-copy-right {
   text-align: center;
