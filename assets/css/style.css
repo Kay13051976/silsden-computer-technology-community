@@ -212,6 +212,9 @@ h1 {
   margin-bottom: 60px;
   background-color: #f0f0f0;
 }
+/* .main-testimonials-template-author > p {
+  background-color: #f0f0f0;
+} */
 .main-testimonials-container {
   display: flex;
   flex-direction: column;
@@ -652,6 +655,9 @@ h1 {
     margin-top: 20px;
     display: inline-block;
   }
+  .header {
+    height: 130px;
+  }
 }
 @media screen and (max-width: 859px) {
   h1 {
@@ -660,43 +666,18 @@ h1 {
     margin-top: 20px;
     display: inline-block;
   }
-}
-/*@media screen and (max-width: 1116px) {
-  h1 {
-    font-size: 30px;
-    margin-left: 35px;
-    margin-top: 20px;
-    display: inline-block;
-  }
-} */
-/* @media screen and (max-width: 873px) {
-  h1 {
-    font-size: 28px;
-    margin-left: 35px;
-    margin-top: 20px;
-    display: inline-block;
+  .header {
+    height: 130px;
   }
 }
-@media screen and (max-width: 860px) {
-  h1 {
-    font-size: 18px;
-    margin-left: 35px;
-    margin-top: 20px;
-    display: inline-block;
-  }
-}
-@media screen and (max-width: 876px) {
-  h1 {
-    font-size: 16px;
-    margin-left: 35px;
-    margin-top: 20px;
-    display: inline-block;
-  }
-} */
+
 @media screen and (max-width: 950px) {
   .body-container {
     height: 100vh;
     padding: 10px;
+  }
+  .header {
+    height: 130px;
   }
   h1 {
     font-size: 28px;
