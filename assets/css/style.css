@@ -19,7 +19,7 @@ body {
 }
 .body-container {
   display: grid;
-  grid-template-rows: 210px auto auto;
+  grid-template-rows: 240px auto auto;
 }
 a:link {
   text-decoration: none;
@@ -28,10 +28,10 @@ a:link {
 /* header start */
 .header-container {
   display: grid;
-  grid-template-rows: 130px 80px;
+  grid-template-rows: 170px 80px;
 }
 .header {
-  height: 130px;
+  height: 170px;
   text-align: center;
   background-color: #0f0f0f;
   /* position: fixed; */
@@ -240,7 +240,7 @@ h1 {
   text-align: center;
   margin-top: 20px;
   font-style: normal;
-  background-color: #f0f0f0;
+  margin-bottom: 26px;
 }
 .main-testimonials-template-text {
   font-size: 18px;
@@ -633,51 +633,13 @@ h1 {
 }
 /* header nav end */
 
-@media screen and (max-width: 1131px) {
-  h1 {
-    font-size: 30px;
-    margin-left: 35px;
-    margin-top: 20px;
-  }
-}
-@media screen and (max-width: 863px) {
-  h1 {
-    font-size: 18px;
-    margin-left: 35px;
-    margin-top: 20px;
-    display: inline-block;
-  }
-}
-@media screen and (max-width: 827px) {
-  h1 {
-    font-size: 16px;
-    margin-left: 35px;
-    margin-top: 20px;
-    display: inline-block;
-  }
-  .header {
-    height: 130px;
-  }
-}
-@media screen and (max-width: 859px) {
-  h1 {
-    font-size: 16px;
-    margin-left: 35px;
-    margin-top: 20px;
-    display: inline-block;
-  }
-  .header {
-    height: 130px;
-  }
-}
-
 @media screen and (max-width: 950px) {
   .body-container {
     height: 100vh;
     padding: 10px;
   }
   .header {
-    height: 130px;
+    height: 170px;
   }
   h1 {
     font-size: 28px;
