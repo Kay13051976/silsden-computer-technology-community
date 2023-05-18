@@ -32,9 +32,19 @@ Desktop
 
 ## features
    ### navbar
+   #### navigation
    ![nav bar](documentation/nav-bar.png)
   - Position at the top underneath the logo.
-    1. Home : Lead to the home page, where the user can learn about the organization.
-    2. About : Lead to the About page where the user can see the purpose of this organization and all the staff, including the community activities gallery of the years.
-    3. Contact : Lead to the home page, where the user can see the contact address and social link.
-    4. Sign Up : Lead to the form page where the user can sign up to get in touch with the organization
+    * Home : Lead to the home page, where the user can learn about the organization.
+    * About : Lead to the About page where the user can see the purpose of this organization and all the staff, including the community activities gallery of the years.
+    * Contact : Lead to the home page, where the user can see the contact address and social link.
+    * Sign Up : Lead to the form page where the user can sign up to get in touch with the organization
+    
+     **The navigation bar is straightforward to understand for the user  and responsive**
+     
+     - **on macbook**
+      ![macbook](documentation/macbook.png)
+     - **on on mobile devices**
+      ![mobile](documentation/mobile.png)
+
+     - **on desktop**
