@@ -45,6 +45,15 @@ Desktop
      - **on macbook**
       ![macbook](documentation/macbook.png)
      - **on on mobile devices**
+      navigation bar filled with the logo in the center and a hamburger menu with the links in the same order.
       ![mobile](documentation/mobile.png)
+      When the hamburger menu is clicked, there is dropdown menu with the link in the same order.
+      ![mobile hamburger dropdown]( documentation/mobile_hamburger_dropdown.png)
 
      - **on desktop**
+
+     ## home page
+     - Represent : The home page represents the purpose of the organization and shows feedback from satisfied clients, a weekly agenda, a contact address, and a social link, including sponsored
+
+     <!-- homepage picture -->
+     
