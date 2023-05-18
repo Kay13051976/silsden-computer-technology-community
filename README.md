@@ -20,14 +20,21 @@ Frequent Visitor Goals:
 
 
 
-### wireframes 
+## wireframes 
 Wireframes 
 Desktop
 ![Home page](documentation/wireframe_home_page.png)
 ![About page](documentation/wireframe_about_page.png)
 ![Sign up page](documentation/wireframe_sign_up_page.png)
 
-### logo
+## logo
 ![Logo image](documentation/silsden_computer_technologe_Community_logo.png)
 
-features
+## features
+   ### navbar
+   ![nav bar](documentation/nav-bar.png)
+  - Position at the top underneath the logo.
+    1. Home : Lead to the home page, where the user can learn about the organization.
+    2. About : Lead to the About page where the user can see the purpose of this organization and all the staff, including the community activities gallery of the years.
+    3. Contact : Lead to the home page, where the user can see the contact address and social link.
+    4. Sign Up : Lead to the form page where the user can sign up to get in touch with the organization
