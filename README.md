@@ -43,7 +43,7 @@ Desktop
      **The navigation bar is straightforward to understand for the user  and responsive**
      
      - **on macbook**
-      ![macbook](documentation/macbook.png)
+      ![laptop](documentation/laptop.png)
      - **on on mobile devices**
       navigation bar filled with the logo in the center and a hamburger menu with the links in the same order.
       ![mobile](documentation/mobile.png)
@@ -56,4 +56,4 @@ Desktop
      - Represent : The home page represents the purpose of the organization and shows feedback from satisfied clients, a weekly agenda, a contact address, and a social link, including sponsored
 
      <!-- homepage picture -->
-     
+
