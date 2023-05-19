@@ -509,7 +509,7 @@ h1 {
 
 .sign-up-container-grid {
   display: grid;
-  grid-template-rows: 24rem 100rem auto;
+  grid-template-rows: 24rem 120rem auto;
 }
 
 .main-sign-up-container {
@@ -518,8 +518,8 @@ h1 {
   align-items: center;
   justify-content: center;
   min-height: 60vh;
-  width: 60rem;
-  height: 90rem;
+  width: 730px;
+  height: 100rem;
   background-color: #fafafa;
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
@@ -559,7 +559,7 @@ h1 {
   width: 100%;
   padding: 10px;
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .text-input {
   font-size: 1.1rem;
@@ -570,6 +570,17 @@ h1 {
   outline: 0;
   border-color: #84b4ff;
 }
+textarea {
+  border: 2px solid #252525;
+margin-left: 0;
+  margin-top: 10px;
+  height: 100px;
+  width: 100%;
+}
+textarea:focus {
+  outline: 0;
+  border-color: #84b4ff;
+}
 .form button {
   cursor: pointer;
   background-color: #f8f9fa;
@@ -577,7 +588,7 @@ h1 {
   width: 100%;
   font-size: 24px;
   padding: 10px;
-  margin-top: 46px;
+  margin-top: 20px;
 }
 .form button:hover {
   outline: 0;
