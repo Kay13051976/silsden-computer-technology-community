@@ -163,7 +163,6 @@ h1 {
   width: auto;
   height: 20rem;
   padding: 15px;
-  /* padding-bottom: 30px; */
   line-height: 40px;
   background-color: rgba(192, 192, 192, 0.6);
   bottom: 50px;
@@ -215,9 +214,7 @@ h1 {
   margin-bottom: 60px;
   background-color: #f0f0f0;
 }
-/* .main-testimonials-template-author > p {
-  background-color: #f0f0f0;
-} */
+
 .main-testimonials-container {
   display: flex;
   flex-direction: column;
@@ -259,7 +256,7 @@ h1 {
   margin-right: auto;
   width: 50%;
   border: 1px solid white;
-  padding: 0.5 rem;
+  padding: 0;
   width: 20rem;
   height: 21rem;
   object-fit: fill;
@@ -268,7 +265,7 @@ h1 {
 /* main testimonials  template end here */
 /* main end here */
 
-/* footer start*/
+/* footer start here*/
 .footer-container-template {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -354,6 +351,7 @@ h1 {
   background-color: #999;
 }
 
+
 /* footer social network link */
 .footer-social-network-container-list {
   display: grid;
@@ -391,7 +389,7 @@ h1 {
   text-decoration: none;
 }
 /* footer end here*/
-/* home page style end*/
+/* home page style end here*/
 
 /* about style start */
 
@@ -572,7 +570,7 @@ h1 {
 }
 textarea {
   border: 2px solid #252525;
-margin-left: 0;
+  margin-left: 0;
   margin-top: 10px;
   height: 100px;
   width: 100%;
@@ -603,6 +601,7 @@ textarea:focus {
 /* sign-up style end here*/
 
 /* media query start here*/
+/* media query header nav start here */
 @media screen and (min-width: 800px) {
   .header-nav-toggle-label {
     display: none;
@@ -654,7 +653,7 @@ textarea:focus {
     transform: scale(1, 1);
   }
 }
-/* header nav end */
+/* header nav end here*/
 
 @media screen and (max-width: 950px) {
   .body-container {
