@@ -42,18 +42,54 @@ Desktop
     
      **The navigation bar is straightforward to understand for the user  and responsive**
      
-     - **on macbook**
+     - **on laptop**
       ![laptop](documentation/laptop.png)
-     - **on on mobile devices**
+     - **on mobile devices**
       navigation bar filled with the logo in the center and a hamburger menu with the links in the same order.
       ![mobile](documentation/mobile.png)
       When the hamburger menu is clicked, there is dropdown menu with the link in the same order.
       ![mobile hamburger dropdown]( documentation/mobile_hamburger_dropdown.png)
 
      - **on desktop**
-
+ ![desktop](documentation/desktop.png)
      ## home page
      - Represent : The home page represents the purpose of the organization and shows feedback from satisfied clients, a weekly agenda, a contact address, and a social link, including sponsored
 
-     <!-- homepage picture -->
+![home page 1](documentation/hame_page_1_4.png)
+![home Page 2](documentation/home_page_2_4.png)
+![home page 3](documentation/home_page_3_4.png)
+![home page 4](documentation/home_page_4_4.png)
 
+
+- **Header section**
+  - Show the logo and the organization name.
+  - Show the nav bar, which is nice  and clear.
+
+![header](documentation/header_and_header_nav.png)
+
+
+- **Hero image section**
+  - The hero section has a fixed background image and text that show the benefit of computer technology.
+
+![hero image](documentation/hero_image.png)
+
+
+- **Agenda template section**
+  - The agenda template shows the weekly organization event and activities.
+
+![agenda template](documentation/agenda_template.png)
+
+
+- **Testimonials section**
+  - The testimonials section show feedback from people who had experience using the Silsden computer technology organization.This Section has three feedbacks. Each card has a name,a story of a client with their image. 
+![testimonials template](documentation/testimonials_template.png)
+
+
+- **Contact copyright sponsored section**
+  - Show three templates which have information about the contact, copyright and sponsoring, respectively
+![contact copy right sponsored](documentation/contact_copyright_sponsored_template.png)
+
+
+- **Social link section**
+  - The footer contains social media links that open in a new tab.​
+![footer social link](documentation/footer_social_link.png)
