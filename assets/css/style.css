@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:wght@700&display=swap");
 /* home page style start*/
+
 *,
 *::before,
 *::after {
@@ -65,9 +66,9 @@ h1 {
 }
 .header-nav-toggle-label {
   position: absolute;
-  top: 18px;
+  top: 24px;
   left: 0;
-  margin-left: 10px;
+  margin-left: 12px;
   margin-right: 0.8em;
   height: 100%;
   display: flex;
@@ -98,7 +99,7 @@ h1 {
 .header-nav-menu {
   position: absolute;
   text-align: left;
-  top: 180%;
+  top: 220%;
   left: 0;
   background-color: #f0f0f0;
   width: 100%;
@@ -603,7 +604,7 @@ textarea:focus {
 
 /* media query start here*/
 /* media query header nav start here */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 50rem) {
   .header-nav-toggle-label {
     display: none;
   }
@@ -658,15 +659,18 @@ textarea:focus {
 }
 /* header nav end here*/
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 51rem) {
   .body-container {
     height: 100vh;
     padding: 10px;
   }
   h1 {
-    font-size: 28px;
+    font-size: 32px;
     margin-left: 35px;
     margin-top: 0;
+  }
+  h2 {
+    font-size: 28px;
   }
   .main-hero-image {
     object-fit: cover;
@@ -705,6 +709,7 @@ textarea:focus {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     justify-content: center;
   }
