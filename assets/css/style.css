@@ -677,6 +677,7 @@ textarea:focus {
   }
   .main-hero-image-cover-text {
     left: 0;
+    width: fit-content;
     height: auto;
   }
   .main-weekly-agenda-template-list {
@@ -708,6 +709,7 @@ textarea:focus {
   .footer-social-network-container-list {
     display: flex;
     flex-direction: row;
+    gap: 15px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
