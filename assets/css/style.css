@@ -360,6 +360,7 @@ h1 {
 }
 .footer-social-network-container-list {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   list-style-type: none;
@@ -375,7 +376,7 @@ h1 {
   text-decoration: none;
 }
 .footer-social-network-container-list i {
-  font-size: 400%;
+  font-size: 250%;
   color: #f7f9f5;
 }
 .footer-social-network-container-list a:hover > i {
@@ -405,7 +406,7 @@ h1 {
   font-size: 36px;
   color: #0f0f0f;
 }
-.about-container img {
+.about-container-organization-image-box img {
   width: 100%;
   height: 70rem;
   align-items: center;
@@ -483,20 +484,20 @@ h1 {
   text-align: center;
 }
 .about-activity-photos-row > img {
-  width: 30rem;
   width: 100%;
   height: 25rem;
 }
 .about-activity-photos {
   display: grid;
-  align-items: center;
   justify-content: space-between;
 }
 .about-activity-photos-row {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
   width: 100%;
-  gap: 10px;
+  margin-bottom: 10px;
   align-items: center;
   justify-content: space-between;
 }
@@ -704,6 +705,8 @@ textarea:focus {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 }
 /* media query end here*/
