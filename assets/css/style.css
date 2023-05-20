@@ -19,7 +19,7 @@ body {
 }
 .body-container {
   display: grid;
-  grid-template-rows: 250px auto auto;
+  /* grid-template-rows: 250px auto auto; */
 }
 a:link {
   text-decoration: none;
@@ -28,10 +28,10 @@ a:link {
 /* header start */
 .header-container {
   display: grid;
-  grid-template-rows: 170px 80px;
+  /* grid-template-rows: 170px 80px; */
 }
 .header {
-  height: 170px;
+  height: 190px;
   text-align: center;
   background-color: #0f0f0f;
   z-index: 999;
@@ -41,10 +41,10 @@ a:link {
   color: #d3cccc;
 }
 h1 {
-  font-size: 44px;
+  font-size: 42px;
   letter-spacing: 4px;
   color: #fff;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 .fa-duotone {
   margin-left: 0.8rem;
@@ -67,7 +67,7 @@ h1 {
 }
 .header-nav-toggle-label {
   position: absolute;
-  top: 36px;
+  top: 28px;
   left: 0;
   margin-left: 10px;
   margin-right: 0.8em;
@@ -351,7 +351,6 @@ h1 {
   background-color: #999;
 }
 
-
 /* footer social network link */
 .footer-social-network-container-list {
   display: grid;
@@ -416,19 +415,20 @@ h1 {
 
   margin-left: 30px;
 }
-.about-container-organizational-chart h3 {
-  text-align: center;
-  font-size: 36px;
-  margin-bottom: 150px;
-}
+
 .about-container {
   text-align: center;
 }
 .about-container h2 {
   background-color: #fff;
   color: #252525;
-  margin-top: 30px;
+  margin-top: 60px;
   font-size: 40px;
+}
+.about-container-organizational-chart h3 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 70px;
 }
 
 .about-container-organizational-chart img {
@@ -606,15 +606,17 @@ textarea:focus {
   .header-nav-toggle-label {
     display: none;
   }
+
   .header-nav {
     background-color: #fff;
-    margin-top: 120px;
-    height: 80px;
+    margin-top: 140px;
+    height: 100px;
   }
 
   .header-nav-menu {
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
+    padding-bottom: 60px;
   }
   .header-nav-menu {
     all: unset;
@@ -660,13 +662,10 @@ textarea:focus {
     height: 100vh;
     padding: 10px;
   }
-  .header {
-    height: 170px;
-  }
   h1 {
     font-size: 28px;
     margin-left: 35px;
-    margin-top: 20px;
+    margin-top: 0;
   }
   .main-hero-image {
     object-fit: cover;
