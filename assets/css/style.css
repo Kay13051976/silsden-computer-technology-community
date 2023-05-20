@@ -604,7 +604,7 @@ textarea:focus {
 
 /* media query start here*/
 /* media query header nav start here */
-@media screen and (min-width: 50rem) {
+@media screen and (min-width: 55rem) {
   .header-nav-toggle-label {
     display: none;
   }
@@ -659,7 +659,7 @@ textarea:focus {
 }
 /* header nav end here*/
 
-@media screen and (max-width: 51rem) {
+@media screen and (max-width: 60rem) {
   .body-container {
     height: 100vh;
     padding: 10px;
