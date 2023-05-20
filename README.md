@@ -43,12 +43,12 @@ Desktop
      **The navigation bar is straightforward to understand for the user  and responsive**
      
      - **on laptop**
-      ![laptop](documentation/laptop.png)
+      ![laptop](documentation/laptop_home_page.png)
      - **on mobile devices**
       navigation bar filled with the logo in the center and a hamburger menu with the links in the same order.
-      ![mobile](documentation/mobile.png)
+      ![mobile](documentation/mobile_home_page.png)
       When the hamburger menu is clicked, there is dropdown menu with the link in the same order.
-      ![mobile hamburger dropdown]( documentation/mobile_hamburger_dropdown.png)
+      ![mobile hamburger dropdown]( documentation/mobile_home_page_hamburger_dropdown.png)
 
      - **on desktop**
  ![desktop](documentation/desktop.png)
