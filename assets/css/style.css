@@ -188,6 +188,7 @@ h1 {
 
 .main-weekly-agenda-template-list div {
   border: 1px solid #fff;
+  height: auto;
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
