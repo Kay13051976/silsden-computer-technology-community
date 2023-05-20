@@ -19,7 +19,6 @@ body {
 }
 .body-container {
   display: grid;
-  /* grid-template-rows: 250px auto auto; */
 }
 a:link {
   text-decoration: none;
@@ -28,7 +27,6 @@ a:link {
 /* header start */
 .header-container {
   display: grid;
-  /* grid-template-rows: 170px 80px; */
 }
 .header {
   height: 190px;
@@ -120,7 +118,7 @@ h1 {
 .header-nav-menu a {
   color: #252525;
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-transform: uppercase;
   opacity: 0;
   transition: opacity 150ms ease-in-out;
@@ -178,13 +176,13 @@ h1 {
 }
 /* weekly agenda template */
 .main-weekly-agenda-template-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 10px;
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  font-size: 16px;
-  padding-left: 10px;
-  padding-right: 10px;
+  font-size: 18px;
   line-height: 32px;
 }
 
@@ -194,7 +192,6 @@ h1 {
   margin: 10px;
   padding: 10px;
   color: #fafafa;
-  white-space: nowrap;
   letter-spacing: 2px;
 }
 
@@ -243,7 +240,7 @@ h1 {
   margin-bottom: 26px;
 }
 .main-testimonials-template-text {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.7;
   padding: 16px;
   letter-spacing: 2px;
@@ -334,17 +331,17 @@ h1 {
   color: #7b7373;
   cursor: pointer;
 }
-.footer-container-template-copy-right {
+.footer-container-template-copyright {
   border: 2px solid white;
   text-align: center;
   font-size: 22px;
   padding: 20px;
   color: #f0f0f0;
 }
-.footer-container-template-copy-right > h4 {
+.footer-container-template-copyright > h4 {
   color: #252525;
 }
-.footer-container-template-copy-right > p {
+.footer-container-template-copyright > p {
   font-size: 18px;
 }
 .footer-container {
@@ -460,7 +457,7 @@ h1 {
   justify-content: space-between;
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom: 300px;
+  margin-bottom: 180px;
   margin-top: 130px;
 }
 .about-container-organizational-chart li {
