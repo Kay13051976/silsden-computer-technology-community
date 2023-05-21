@@ -661,6 +661,9 @@ textarea:focus {
   }
   .header-nav-menu ul {
     display: flex;
+    column-gap: 40px;
+    align-items: center;
+    justify-content: center;
   }
   .header-nav-menu li {
     /* margin-left: 3em; */
