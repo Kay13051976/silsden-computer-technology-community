@@ -178,8 +178,9 @@ h1 {
 /* weekly agenda template */
 .main-weekly-agenda-template-list {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  column-gap: 10px;
+  grid-template-columns: repeat(4, auto);
+  width: fit-content;
+  column-gap: auto;
   width: 100%;
   align-items: center;
   justify-content: space-between;
@@ -187,14 +188,17 @@ h1 {
   line-height: 32px;
 }
 
-.main-weekly-agenda-template-list div {
-  border: 1px solid #fff;
+.main-weekly-agenda-template-list ul {
+  display: grid;
   height: auto;
+  border: 1px solid #fff;
+
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
   color: #fafafa;
   letter-spacing: 2px;
+  list-style-type: none;
 }
 
 .main-weekly-agenda-template-list a {
@@ -272,6 +276,7 @@ h1 {
   gap: 40px;
   line-height: 40px;
   margin-top: 30px;
+  letter-spacing: 2px;
 }
 .footer-container-template-sponsored > h4 {
   color: #252525;
@@ -344,7 +349,7 @@ h1 {
   color: #252525;
 }
 .footer-container-template-copyright > p {
-  font-size: 18px;
+  font-size: 20px;
 }
 .footer-container {
   background-color: #999;
