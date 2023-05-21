@@ -500,12 +500,12 @@ h1 {
   /* width: 100vw; */
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(330px, 250px));
-  column-gap: 10px;
-  row-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 250px));
+  column-gap: 15px;
+  row-gap: 15px;
 }
-img {
-  width: 330px;
+.about-activity-container-image > img {
+  width: 350px;
   height: 250px;
   object-fit: cover;
   object-position: center;
