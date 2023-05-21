@@ -663,7 +663,9 @@ textarea:focus {
     display: flex;
   }
   .header-nav-menu li {
-    margin-left: 3em;
+    /* margin-left: 3em; */
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 0;
   }
   .header-nav-menu a::before {
