@@ -95,9 +95,105 @@ Desktop
 ![footer social link](documentation/footer_social_link.png)
 
 ## ABOUT PAGE
-- The About page has the story and organisation goal. And display all staff images with the manager line. Underneath the organisation chart is the organisation activities picture of the year.
+ The About page displays all staff images with the manager line. Underneath the organisation chart is the organisation activities picture of the year.
   - The About page has a hero image showing all the staff standing together
-underneath is the organization chart showing the management line, which displays the picture of each one and their name. 
-  - The organization activities gallery of the year is responsive. The size of the photo depends on the user's screen.
-- It has a footer identical to the home page's footer.
+underneath is the organisation chart showing the management line, which displays the picture of each one and their name. 
+  - The organisation activities gallery of the year is responsive, and the photo size depends on the user's screen.  
+  - It has a footer identical to the home page's footer.
 ![about page image]()
+## SIGN UP PAGE
+The contact page has a contact form:
+ - All text input fields are customized.
+ - Labels are animated when the input field is focused and not 
+  empty.
+ - All inputs are set to be required to fill out.
+ -  The submit button is animated on active.
+ - The page is responsive on all standard screen sizes.
+ - The submit button leads to the response page.​
+ ![sign up page image]()
+ ## RESPONSE PAGE
+ The response page appears after submitting the contact form.
+ - It contains the thank you message and the promise to 
+   contact the applicant as soon as possible.
+ - It will automatically direct the user to the main page in 
+   10 seconds.
+  ## Technologies Used
+- HTML was used as the foundation of the site.
+- CSS - was used to add the styles and layout of the site.
+- CSS Flexbox - was used to arrange items symmetrically on the pages.
+- CSS Grid - was used to make "gallery" and "contact" pages responsive.
+- Balsamiq was used to make wireframes for the website.
+- VSCode was used as the primary tool to write and edit code.
+- Git was used for the version control of the website.
+- GitHub was used to host the principle of the website.
+- GIMP was used to make and resize images for the README file.
+
+## DESIGN
+The black colour was used as the main colour of the website due to its psychological effect on people's minds. As this colour is associated with trustworthiness and reliability, website visitors could build a firm belief in the organization "Silsden computer technology community."
+![black color image]()
+White Color was used as a background colour since this colour creates a sense of tranquillity and connects the user and the organization.
+![white color image]()
+The black and grey colour was used to emphasize the logo and leave a remarkable effect on the website visitors.
+![gray color image]()
+Lato Google Font was used as the website's primary font to increase the content's readability.
+![lato alphabet image]()
+ Manrope Google Font was used to attract viewers' attention to the cover text, accentuate the company's strong points, and incentivize visitors to contact "Silsden computer technology" community.
+ ![manrope alphabet image]()
+
+ ## TESTING
+
+ To confirm the correct functionality, responsiveness, and appearance:
+The website was tested on the following browsers: Chrome, Firefox, and Brave.
+Chrome:
+- Chrome
+![testing clip video]()
+- Firefox
+![testing clip video]()
+- Brave
+![testing clip video]()
+The website was checked by dev tools implemented in Firefox and Chrome browsers.
+- Main Page:
+![testing clip video]()
+- About Page
+![testing clip video]()
+- Sign Up Page
+![testing clip video]()
+The website was checked with Responsive Website Design Tester.
+- Desktop-Screens:
+![testing clip video]()
+- Laptop-Screens
+![testing clip video]()
+- Mobile-Screens
+![testing clip video]()
+Validator testing
+HTML
+Home Page
+No errors or warnings were found when passing through the official W3C validator.
+[W3C picture]()
+About Page
+No errors or warnings were found when passing through the official W3C validator.
+[W3C picture]()
+Sign Up Page
+No errors or warnings were found when passing through the official W3C validator.
+[W3C picture]()
+Response Page
+No errors or warnings were found when passing through the official W3C validator.
+CSS
+No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
+[W3C css picture]()
+Accessibility and performance
+Using lighthouse in dev tools, I confirmed that the website is performing well, is accessible, and the colours and fonts chosen are readable.
+![light house testing image]()
+
+Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Main Branch, then click "Save".
+The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here
+Local Deployment
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+git clone https://github.com/IuliiaKonovalova/animal_shelter.git
+Alternatively, if you use Gitpod, you can click here to start the Gitpod workspace.
+## WIREFRAMES MOBILE DEVICE
+![wireframes mobile image]()
