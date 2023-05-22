@@ -52,7 +52,7 @@ Desktop
 
      - **on desktop**
  ![desktop](documentation/desktop.png)
-     ## home page
+  ## HOME PAGE
      - Represent : The home page represents the purpose of the organization and shows feedback from satisfied clients, a weekly agenda, a contact address, and a social link, including sponsored
 
 ![home page 1](documentation/hame_page_1_4.png)
@@ -93,3 +93,11 @@ Desktop
 - **Social link section**
   - The footer contains social media links that open in a new tab.​
 ![footer social link](documentation/footer_social_link.png)
+
+## ABOUT PAGE
+- The About page has the story and organisation goal. And display all staff images with the manager line. Underneath the organisation chart is the organisation activities picture of the year.
+  - The About page has a hero image showing all the staff standing together
+underneath is the organization chart showing the management line, which displays the picture of each one and their name. 
+  - The organization activities gallery of the year is responsive. The size of the photo depends on the user's screen.
+- It has a footer identical to the home page's footer.
+![about page image]()
