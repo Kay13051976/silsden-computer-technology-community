@@ -53,9 +53,9 @@
           
             <li>
               <a
-                href="sign-up.html"
+                href="contact.html"
                 aria-label="Visit our sign-up page (open in a same tab)"
-                >Sign Up</a
+                >Contact</a
               >
             </li>
           </ul>
@@ -65,7 +65,38 @@
         </label>
       </div>
     </header>
-    <main class="main-sign-up-container">
+    <main>
+      <section class="contact-form">
+        <div class="contact-form-container">
+          <form method="GET" action="response.html" class="sign-up-form"> 
+            <h2 class="contact-form-title"></h2>
+            Please tell us what you need to know.
+            <label for="first-name" class="label-hidden" label-first-name>First Name</label>
+            <div>
+              <input id="first-name" name="first-name" type="text" placeholder="First Name" required class="text-input">
+            </div>
+            <label for="last-name" class="label-hidden" label-first-name>Last Name</label>
+            <div>
+              <input id="last-name" name="last-name" type="text" placeholder="Last Name" required class="text-input">
+            </div>
+            <label for="email" class="label-hidden" label-first-name>Email Address</label>
+            <div>
+              <input id="email" name="email-address" type="text" placeholder="Email Address" required class="text-input">
+            </div>
+            <div class="form-control">
+              <label for="comment-box" class="form-control-label"
+                >Tell us about your required and your experience with computers.
+              </label>
+              <textarea name="customer-required" id="comment-box"></textarea>
+            </div>
+          <div class="form-btn">
+            <input class="btn form-btn" type="submit" value="Submit">
+          </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- <main class="main-sign-up-container">
       <form id="form" class="form">
         <h2>Sign Up</h2>
         <div class="form-control">
@@ -112,7 +143,7 @@
           >Submit </a
         ></button>
       </form>
-    </main>
+    </main> -->
 
     <footer class="footer-container">
       <div class="footer-container-copy-right">

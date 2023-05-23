@@ -515,13 +515,14 @@ height: 200px; */
   object-fit: cover;
   object-position: center;
 }
+
 /* about style end here*/
 
 /* sign-up style start here*/
-
+/* 
 .sign-up-container-grid {
   display: grid;
-  /* grid-template-rows: 24rem 120rem auto; */
+  grid-template-rows: 24rem 120rem auto;
 }
 
 .main-sign-up-container {
@@ -531,7 +532,7 @@ height: 200px; */
   justify-content: center;
   min-height: 60vh;
   width: 50rem;
-  height: 100rem;
+  height: 80rem;
   background-color: #fafafa;
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
@@ -621,7 +622,7 @@ textarea:focus {
   outline: 0;
   /* border-color: #84b4ff; */
   border-color: #ffaf33;
-}
+} */
 .footer-container-copy-right {
   text-align: center;
   font-size: 18px;
@@ -668,13 +669,13 @@ textarea:focus {
   .header-nav {
     background-color: #fff;
     margin-top: 140px;
-    height: 100px;
+    height: 60px;
   }
 
   .header-nav-menu {
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
   }
   .header-nav-menu {
     all: unset;
