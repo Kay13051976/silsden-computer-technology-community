@@ -43,6 +43,7 @@ h1 {
   font-size: 42px;
   letter-spacing: 4px;
   color: #fff;
+
   padding-top: 40px;
 }
 .fa-duotone {
@@ -190,8 +191,10 @@ h1 {
 
 .main-weekly-agenda-template-list ul {
   display: grid;
+  /* width: 400px;
+height: 200px; */
   height: auto;
-  border: 1px solid #fff;
+  border: 1px solid #ffaf33;
 
   border-radius: 5px;
   margin: 10px;
@@ -215,7 +218,7 @@ h1 {
   font-size: 36px;
   margin-top: 60px;
   margin-bottom: 60px;
-  background-color: #f0f0f0;
+  background-color: #fff;
 }
 
 .main-testimonials-container {
@@ -234,7 +237,9 @@ h1 {
 .main-testimonials-template {
   display: grid;
   grid-template-rows: auto auto auto;
-  border: 1px solid white;
+  /* background-color: #23211e; */
+
+  border: 2px solid white;
   padding-bottom: 20px;
 }
 .main-testimonials-template-author {
@@ -510,25 +515,6 @@ h1 {
   object-fit: cover;
   object-position: center;
 }
-/* .about-activity-photos-row > img {
-  width: 100%;
-  height: 25rem;
-}
-.about-activity-photos {
-  display: grid;
-  justify-content: space-between;
-}
-.about-activity-photos-row {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  column-gap: 10px;
-  row-gap: 10px;
-  width: 100%;
-  margin-bottom: 10px;
-  align-items: center;
-  justify-content: space-between;
-} */
-
 /* about style end here*/
 
 /* sign-up style start here*/
@@ -545,14 +531,14 @@ h1 {
   justify-content: center;
   min-height: 60vh;
   width: 50rem;
-  height: 86rem;
+  height: 100rem;
   background-color: #fafafa;
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   font-family: "Roboto", sans-serif;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 120px;
+  margin-top: 60px;
   margin-bottom: 60px;
 }
 .form {
@@ -595,7 +581,8 @@ h1 {
 
 .form-control input:focus {
   outline: 0;
-  border-color: #84b4ff;
+  /* border-color: #84b4ff; */
+  border-color: #ffaf33;
 }
 textarea {
   border: 2px solid #252525;
@@ -608,20 +595,32 @@ textarea {
 }
 textarea:focus {
   outline: 0;
-  border-color: #84b4ff;
+  /* border-color: #84b4ff; */
+  border-color: #ffaf33;
 }
 .form button {
   cursor: pointer;
   background-color: #f8f9fa;
   border: 3px solid #252525;
-  width: 100%;
+  width: 50%;
+  /* text-align: center;
+  align-items: center; */
+  /* align-content: center; */
+  color: #0f0f0f;
   font-size: 24px;
   padding: 10px;
   margin-top: 20px;
+  margin: 0;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .form button:hover {
   outline: 0;
-  border-color: #84b4ff;
+  /* border-color: #84b4ff; */
+  border-color: #ffaf33;
 }
 .footer-container-copy-right {
   text-align: center;
@@ -639,7 +638,6 @@ textarea:focus {
   margin-bottom: 100px;
   align-items: center;
   justify-content: center;
- 
 }
 .response-page-container {
   max-width: 100%;
@@ -649,15 +647,15 @@ textarea:focus {
   padding: 40px;
 }
 .response-page-container-text {
-font-size: 32px;
-letter-spacing: 2px;
-font-family: "Manrope", sans-serif;
-font-weight: 700;
-text-transform: uppercase;
-text-align: center;
-line-height: 8rem;
-border-radius: 5px;
-text-shadow: 2px 2px 2px rgba(255,255, 255, 0.8);
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 8rem;
+  border-radius: 5px;
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
 }
 /* response page style end here */
 /* media query start here*/
