@@ -100,7 +100,7 @@ h1 {
 .header-nav-menu {
   position: absolute;
   text-align: left;
-  top: 220%;
+  top: 250%;
   left: 0;
   background-color: #f0f0f0;
   width: 100%;
@@ -195,10 +195,8 @@ h1 {
 }
 .main-weekly-agenda-template-list ul {
   display: grid;
-
   height: 14em;
   border: 1px solid #ffaf33;
-
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
@@ -222,6 +220,8 @@ h1 {
   margin-top: 60px;
   margin-bottom: 60px;
   background-color: #fff;
+  color: #252525;
+  text-align: center;
 }
 
 .main-testimonials-container {
@@ -259,7 +259,7 @@ h1 {
   line-height: 1.7;
   padding: 16px;
   letter-spacing: 2px;
-  color: #f8f9fa;
+  color: white;
   font-style: italic;
 }
 .main-testimonials-template-image img {
@@ -268,9 +268,10 @@ h1 {
   margin-right: auto;
   width: 50%;
   border: 1px solid white;
+  border-radius: 50%;
   padding: 0;
-  width: 10em;
-  height: 10em;
+  width: 12em;
+  height: 12em;
   object-fit: fill;
   margin-bottom: 10%;
 }
@@ -361,7 +362,7 @@ h1 {
   font-size: 20px;
 }
 .footer-container {
-  background-color: #999;
+  background-color: #878484;
 }
 
 /* footer social network link */
@@ -377,10 +378,11 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   list-style-type: none;
-  margin-left: 260px;
-  margin-right: 260px;
+  gap: 10em;
+  /* margin-left: 260px;
+  margin-right: 260px; */
   margin-top: 60px;
   margin-bottom: 60px;
 }
@@ -705,10 +707,11 @@ textarea:focus {
   }
   .header-nav-menu {
     all: unset;
-    grid-column: 2/ 3;
+    /* grid-column: 2/ 3; */
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30em;
     margin-top: 50px;
     background-color: #fff;
   }
@@ -718,7 +721,7 @@ textarea:focus {
   }
   .header-nav-menu ul {
     display: flex;
-    column-gap: 40px;
+    column-gap: 70px;
     align-items: center;
     justify-content: center;
   }
@@ -775,6 +778,9 @@ textarea:focus {
   .main-testimonials-template-list {
     display: flex;
     flex-direction: column;
+  }
+  .main-weekly-agenda-template-list ul {
+    height: 12em;
   }
   .footer-container-template {
     display: flex;
