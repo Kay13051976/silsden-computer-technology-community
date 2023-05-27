@@ -752,7 +752,7 @@ textarea:focus {
 }
 /* header nav end here*/
 
-@media screen and (max-width: 60rem) {
+@media screen and (max-width: 70rem) {
   .body-container {
     height: 100vh;
     padding: 10px;
@@ -774,8 +774,10 @@ textarea:focus {
     height: auto;
   }
   .main-weekly-agenda-template-list {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-auto-flow: row;
   }
   .main-testimonials-template-list {
     display: flex;
