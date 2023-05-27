@@ -67,62 +67,78 @@
     </header>
     <main class="contact-page-main-container" >
       <form id="form" class="form">
-        <h2>Contact Form</h2>
-        <div class="form-control">
-          <label for="first-name" class="form-control-label">First Name</label>
-          <input
-            type="text"
-            name="first_name"
-            id="first-name"
-            placeholder="Enter your first name"
-            required
-            class="text-input"
-            
-          />
+        <h2>Contact Us</h2>
+        <div class="form-col-grid">
+          <div>
+            <div class="form-control">
+              <label for="full-name" class="form-control-label">Full Name</label>
+              <input
+                type="text"
+                name="full_name"
+                id="full-name"
+                placeholder="Enter your full name"
+                required
+                class="text-input"
+                
+              />
+            </div>
+          
+            <div class="form-control">
+              <label for="email" class="form-control-label">Email Address</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email address"
+                required
+                class="text-input"
+              />
+            </div>
+            <div class="form-control">
+              <label for="phoneNumber" class="form-control-label">Phone Number</label>
+              <input
+                type="text"
+                name="phoneNumber"
+                id="phoneNumber"
+                placeholder="Enter your phone number"
+                
+                class="text-input"
+              />
+            </div>
+            <div class="gender-detail-box">
+              <span class="gender-title">Gender</span>
+              <div class="gender-category">
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label> 
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label> 
+                <input type="radio" name="gender" id="other">
+                <label for="other">Other</label> 
+              </div>
+            </div>
+          </div>
+          <div>
+          
+       
+            <div class="form-control form-control-textarea">
+              <label for="comment-box" class="form-control-label"
+                >Tell us about your required and your experience with computers.
+              </label>
+              <textarea name="customer-required" id="comment-box"></textarea>
+            </div>
+           
+          </div>
         </div>
-        <div class="form-control">
-          <label for="last-name" class="form-control-label">Last Name</label>
-          <input
-            type="text"
-            name="last_name"
-            id="last-name"
-            placeholder="Enter your last name"
-            required
-            class="text-input"
 
-          />
-        </div>
-        <div class="form-control">
-          <label for="email" class="form-control-label">Email Address</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Enter your email address"
-            required
-            class="text-input"
-          />
-        </div>
-        <div class="form-control">
-      
-        <div class="form-control">
-          <label for="comment-box" class="form-control-label"
-            >Tell us about your required and your experience with computers.
-          </label>
-          <textarea name="customer-required" id="comment-box"></textarea>
-        </div>
-        <div class="form-btn">
-
+        <div class="">
           <button type="submit" value="submit" class="btn form-btn ">
-         
             Submit 
           </button>
         </div>
-        
       </form>
     </main> 
 
-    <footer class="footer-container">
+    <footer class="footer-container contact-page-footer-container-social-link">
       <div class="contact-page-footer-container-copy-right">
         <p>
           Silsden computer technology community.com Web Design, Including Coding
@@ -137,7 +153,6 @@
       </div>
       <div class="footer-social-network-container">
         <ul class="footer-social-network-container-list">
-          <li>
             <a
               href="https://facebook.com"
               target="_blank"
