@@ -179,7 +179,7 @@ h1 {
 /* weekly agenda template */
 .main-weekly-agenda-template-list {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   height: 40%;
   width: 100%;
   list-style: none;
@@ -191,7 +191,7 @@ h1 {
 .main-weekly-agenda-template-list-detail {
   display: flex;
   flex-direction: row;
-  word-wrap: nowrap;
+  flex-wrap: wrap;
 }
 .main-weekly-agenda-template-list ul {
   display: grid;
@@ -216,11 +216,13 @@ h1 {
 }
 /* testimonials start here*/
 .main-testimonials-template-list-title {
-  font-size: 36px;
+  font-size: 4.2rem;
+  padding: 0.4em;
   margin-top: 60px;
+  border-radius: 5px;
   margin-bottom: 60px;
-  background-color: #fff;
-  color: #252525;
+  background-color: #343232;
+  color: #f0f0f0;
   text-align: center;
 }
 
