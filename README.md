@@ -193,8 +193,8 @@ Validator testing
 HTML
 Home Page
 No errors or warnings were found when passing through the official W3C validator.
-[W3C picture]()
-About Page
+![Index html validation](documentation/index_html_validation.png)
+Contact Page
 No errors or warnings were found when passing through the official W3C validator.
 [W3C picture]()
 Sign Up Page
@@ -204,7 +204,7 @@ Response Page
 No errors or warnings were found when passing through the official W3C validator.
 CSS
 No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
-[W3C css picture]()
+![Response html validation](documentation/response_html_validation.png)
 Accessibility and performance
 Using lighthouse in dev tools, I confirmed that the website is performing well, is accessible, and the colours and fonts chosen are readable.
 ![light house testing image]()
