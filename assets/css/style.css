@@ -749,13 +749,14 @@ textarea:focus {
 }
 /* header nav end here*/
 
+
 @media screen and (max-width: 70rem) {
   .body-container {
     height: 100vh;
     padding: 10px;
   }
   h1 {
-    font-size: 32px;
+    font-size: 2.8rem;
     margin-left: 35px;
     margin-top: 0;
   }
@@ -774,9 +775,15 @@ textarea:focus {
     display: flex;
     flex-direction: column;
   }
+  .main-weekly-agenda-template {
+    width: 90%;
+    padding-left: 1.6em;
+  }
+ 
   .main-testimonials-template-list {
     display: flex;
     flex-direction: column;
+    width:100%;
   }
 
   .footer-container-template {

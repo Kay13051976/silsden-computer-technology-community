@@ -70,7 +70,7 @@ The website is responsive when it is on mobile view.
        ![Mobile home page](documentation/mobile_home_page7.png)
         ![Mobile home page](documentation/mobile_home_page8.png)
 
-     - **On desktop**
+   - **On desktop**
      ![Desktop home page1](documentation/desktop_home_page1.png)
 ![Desktop home Page2](documentation/desktop_home_page2.png)
 ![Desktop home page3](documentation/desktop_home_page3.png)
