@@ -43,7 +43,6 @@ h1 {
   font-size: 4.2rem;
   letter-spacing: 0.4rem;
   color: #fff;
-
   padding-top: 40px;
 }
 .fa-duotone {
@@ -738,7 +737,7 @@ textarea:focus {
     height: 5px;
     background: #252525;
     position: absolute;
-    bottom: -0.75em;
+    top: -0.75em;
     left: 0;
     right: 0;
     transform: scale(0, 1);
