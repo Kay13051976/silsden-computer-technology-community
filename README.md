@@ -88,13 +88,13 @@ The website is responsive when it is on mobile view.
   - Show the logo and the organization name.
   - Show the nav bar, which is nice  and clear.
 
-![header](documentation/header_and_header_nav.png)
+![Header](documentation/header.png)
 
 
 - **Hero image section**
   - The hero section has a fixed background image and text that show the benefit of computer technology.
 
-![hero image](documentation/hero_image_section.png)
+![Hero image](documentation/hero_image.png)
 
 
 - **Weekly agenda template section**
