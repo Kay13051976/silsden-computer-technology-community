@@ -3,6 +3,7 @@ Silsden computer technology community.com is the website for people living in Si
 
 The site can be accessed by the link [a link](https://kay13051976.github.io/silsden-computer-tecnology-community.com/)
 
+![Responsive image](documentation/responsive_image.png)
 ## Use Stories
 First-Time Visitor Goals:
 - As a First-Time Visitor, I want to quickly understand the site's primary purpose to learn more about the organization.
