@@ -26,6 +26,7 @@ Desktop
 ![Home page](documentation/wireframe_home_page.png)
 ![About page](documentation/wireframe_about_page.png)
 ![Contact page](documentation/wireframe_contact_page.png)
+![Response page](documentation/wireframe_response_page.png)
 
 ## logo
 ![Logo image](documentation/silsden_computer_technologe_Community_logo.png)
@@ -40,7 +41,7 @@ Desktop
     * Contact : Lead to the home page, where the user can see the contact address and social link.
     * Sign Up : Lead to the form page where the user can sign up to get in touch with the organization
     
-     **The navigation bar is straightforward to understand for the user  and responsive**
+     **The navigation bar is straightforward to understand for the user and responsive**
      
      - **on laptop**
       ![laptop](documentation/laptop_home_page.png)
