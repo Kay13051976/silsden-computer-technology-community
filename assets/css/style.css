@@ -178,25 +178,17 @@ h1 {
 }
 /* weekly agenda template */
 .main-weekly-agenda-template-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  height: 40%;
-  width: 100%;
-  list-style: none;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
   align-items: center;
   justify-content: space-between;
   font-size: 1.6rem;
   line-height: 3.2rem;
 }
-.main-weekly-agenda-template-list-detail {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 
-}
-.main-weekly-agenda-template-list ul {
-  display: grid;
-  border: 1px solid #ffaf33;
+.main-weekly-agenda-template {
+  border: 2px solid #ffaf33;
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
@@ -205,14 +197,14 @@ h1 {
   list-style-type: none;
 }
 
-.main-weekly-agenda-template-list a {
+.main-weekly-agenda-template a {
   cursor: pointer;
-  text-decoration: underline;
-  color: #d3cccc;
+  color: #aaa4a4;
 }
-.main-weekly-agenda-template-list a:hover {
+.main-weekly-agenda-template a:hover {
   border-bottom: 1px solid #fff;
   color: #fff;
+  text-decoration: underline;
 }
 /* testimonials start here*/
 .main-testimonials-template-list-title {
@@ -369,8 +361,10 @@ h1 {
 
 /* footer social network link */
 .footer-social-network-container-list {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  /* display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr; */
+  display: flex;
+  flex-direction: column;
 }
 .footer-sponsored-container-logo-list {
   display: flex;
@@ -383,8 +377,6 @@ h1 {
   justify-content: center;
   list-style-type: none;
   gap: 10em;
-  /* margin-left: 260px;
-  margin-right: 260px; */
   margin-top: 60px;
   margin-bottom: 60px;
 }
@@ -507,11 +499,9 @@ h1 {
   text-align: center;
 }
 .about-activity-container-image {
-  /* position: absolute; */
   justify-content: center;
   align-items: center;
   margin-top: 10px;
-  /* width: 100vw; */
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 250px));
@@ -783,16 +773,14 @@ textarea:focus {
     height: auto;
   }
   .main-weekly-agenda-template-list {
-    display: grid;
-    grid-auto-flow: row;
+    display: flex;
+    flex-direction: column;
   }
   .main-testimonials-template-list {
     display: flex;
     flex-direction: column;
   }
-  .main-weekly-agenda-template-list ul {
-    height: 12em;
-  }
+
   .footer-container-template {
     display: flex;
     flex-direction: column;
