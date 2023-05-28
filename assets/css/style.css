@@ -192,10 +192,10 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
 }
 .main-weekly-agenda-template-list ul {
   display: grid;
-  height: 14em;
   border: 1px solid #ffaf33;
   border-radius: 5px;
   margin: 10px;
@@ -435,7 +435,7 @@ h1 {
 }
 
 .about-container {
-margin-top: 140px;
+  margin-top: 140px;
   text-align: center;
 }
 .about-container h2 {
@@ -530,7 +530,6 @@ margin-top: 140px;
   text-align: center;
 }
 .about-page-footer-container {
-  
 }
 /* about style end here*/
 
@@ -584,23 +583,23 @@ margin-top: 140px;
   margin-bottom: 90px;
 
   gap: 70px;
-} 
+}
 .gender-detail-box {
   margin-top: 20px;
 }
 .gender-title {
-  color:#252525;
+  color: #252525;
   font-size: 2rem;
   letter-spacing: 0.2rem;
 }
-.gender-category  {
+.gender-category {
   font-size: 1.8rem;
   letter-spacing: 0.2rem;
   color: #646060;
   margin-top: 20px;
 }
 .form-control-label {
-  color:#252525;
+  color: #252525;
   font-size: 1.8rem;
   letter-spacing: 0.2rem;
 }
@@ -632,7 +631,6 @@ textarea {
   width: 100%;
   resize: vertical;
   min-height: 100px;
-
 }
 textarea:focus {
   outline: 0;
@@ -669,7 +667,6 @@ textarea:focus {
 }
 .contact-page-footer-container-social-link {
   background-color: rgb(65, 62, 62);
-
 }
 /* sign-up style end here*/
 /* response page style start here */
@@ -786,7 +783,6 @@ textarea:focus {
     height: auto;
   }
   .main-weekly-agenda-template-list {
-   
     display: grid;
     grid-auto-flow: row;
   }
@@ -813,7 +809,6 @@ textarea:focus {
     margin-right: auto;
   }
 
-  
   .footer-social-network-container-list {
     display: flex;
     gap: 10px;
