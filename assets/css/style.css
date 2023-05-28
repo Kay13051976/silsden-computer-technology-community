@@ -435,6 +435,7 @@ h1 {
 }
 
 .about-container {
+margin-top: 140px;
   text-align: center;
 }
 .about-container h2 {
@@ -536,7 +537,6 @@ h1 {
 /* contact form style start here*/
 .sign-up-container-grid {
   display: grid;
-  /* grid-template-rows: 24rem 120rem auto; */
 }
 
 .contact-page-main-container {
@@ -549,7 +549,7 @@ h1 {
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   font-family: "Roboto", sans-serif;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 86px;
@@ -583,7 +583,7 @@ h1 {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin-bottom: 90px;
 
-  gap: 30px;
+  gap: 70px;
 } 
 .gender-detail-box {
   margin-top: 20px;
@@ -596,7 +596,7 @@ h1 {
 .gender-category  {
   font-size: 1.8rem;
   letter-spacing: 0.2rem;
-  color: #444;
+  color: #646060;
   margin-top: 20px;
 }
 .form-control-label {
@@ -610,6 +610,7 @@ h1 {
   padding: 10px;
   font-size: 18px;
   margin-bottom: 15px;
+  border-radius: 5px;
 }
 .text-input {
   font-size: 1.1rem;
@@ -620,18 +621,18 @@ h1 {
   outline: 0;
   border-color: #ffaf33;
 }
-.form-control-textarea {
-  /* margin-top: 60px; */
-}
+
 textarea {
   border: 2px solid #252525;
   margin-left: 0;
+  border-radius: 5px;
   margin-top: 10px;
   max-height: 32em;
   overflow: auto;
   width: 100%;
   resize: vertical;
   min-height: 100px;
+
 }
 textarea:focus {
   outline: 0;
@@ -641,6 +642,7 @@ textarea:focus {
   cursor: pointer;
   background-color: #f8f9fa;
   border: 3px solid #252525;
+  border-radius: 5px;
   width: auto;
   text-align: center;
   font-size: 1.5em;
@@ -784,8 +786,7 @@ textarea:focus {
     height: auto;
   }
   .main-weekly-agenda-template-list {
-    /* display: flex;
-    flex-direction: column; */
+   
     display: grid;
     grid-auto-flow: row;
   }
@@ -811,10 +812,7 @@ textarea:focus {
     margin-left: auto;
     margin-right: auto;
   }
- /* .form-col-grid {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
- } */
+
   
   .footer-social-network-container-list {
     display: flex;
