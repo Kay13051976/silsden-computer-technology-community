@@ -25,7 +25,7 @@ Wireframes
 Desktop
 ![Home page](documentation/wireframe_home_page.png)
 ![About page](documentation/wireframe_about_page.png)
-![Sign up page](documentation/wireframe_sign_up_page.png)
+![Contact page](documentation/wireframe_contact_page.png)
 
 ## logo
 ![Logo image](documentation/silsden_computer_technologe_Community_logo.png)
