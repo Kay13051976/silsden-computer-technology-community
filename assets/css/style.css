@@ -190,6 +190,7 @@ h1 {
   border: 2px solid #ffaf33;
   border-radius: 5px;
   margin: 10px;
+  width: 90%;
   padding: 10px;
   color: #fafafa;
   letter-spacing: 2px;
@@ -444,16 +445,17 @@ h1 {
 .about-container-organizational-chart img {
   width: 19rem;
   height: 19rem;
-  margin-right: 30px;
-  margin-bottom: 20px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
   border: 3px solid black;
 }
 .about-container hr {
   border-top: 3px solid black;
-  margin-top: 60px;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 100px;
+  margin-top: 3.75em;
+  margin-left: 7em;
+  margin-right: 7em;
+  margin-bottom: 6.25em;
 }
 .about-container-organizational-chart-manager {
   margin-bottom: 30px;
@@ -500,7 +502,7 @@ h1 {
 .about-activity-container-image {
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 2em;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 250px));
@@ -632,13 +634,10 @@ textarea:focus {
   width: auto;
   text-align: center;
   font-size: 1.5em;
-  margin-top: 50px;
-  padding: 10px;
+  padding: 0.8em 3em;
   margin: 0;
   position: absolute;
-  /* bottom: 90,10%; */
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 .form button:hover {
@@ -749,14 +748,13 @@ textarea:focus {
 }
 /* header nav end here*/
 
-
 @media screen and (max-width: 70rem) {
   .body-container {
     height: 100vh;
     padding: 10px;
   }
   h1 {
-    font-size: 2.8rem;
+    font-size: 3rem;
     margin-left: 35px;
     margin-top: 0;
   }
@@ -779,11 +777,11 @@ textarea:focus {
     width: 90%;
     padding-left: 1.6em;
   }
- 
+
   .main-testimonials-template-list {
     display: flex;
     flex-direction: column;
-    width:100%;
+    width: 100%;
   }
 
   .footer-container-template {
@@ -793,6 +791,9 @@ textarea:focus {
   .about-container-organizational-chart-colleague {
     display: flex;
     flex-direction: column;
+  }
+  .about-container-organizational-chart-colleague > li {
+    margin-top: 3em;
   }
   .about-activity-photos-row {
     display: grid;
