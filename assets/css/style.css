@@ -195,12 +195,13 @@ h1 {
   padding: 1em;
   color: #fafafa;
   letter-spacing: 2px;
-  list-style-type: none;
 }
 
 .main-weekly-agenda-template a {
   cursor: pointer;
   color: #aaa4a4;
+  text-decoration: underline;
+
 }
 .main-weekly-agenda-template a:hover {
   border-bottom: 1px solid #fff;
