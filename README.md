@@ -153,17 +153,35 @@ The contact page has a contact form:
 - GIMP was used to make and resize images for the README file.
 
 ## DESIGN
+ - Color Scheme
 The black colour was used as the main colour of the website due to its psychological effect on people's minds. As this colour is associated with trustworthiness and reliability, website visitors could build a firm belief in the organization "Silsden computer technology community."
 ![black color image]()
 White Color was used as a background colour since this colour creates a sense of tranquillity and connects the user and the organization.
 ![white color image]()
 The black and grey colour was used to emphasize the logo and leave a remarkable effect on the website visitors.
 ![gray color image]()
+ - Typography
 Lato Google Font was used as the website's primary font to increase the content's readability.
 ![lato alphabet image]()
  Manrope Google Font was used to attract viewers' attention to the cover text, accentuate the company's strong points, and incentivize visitors to contact "Silsden computer technology" community.
  ![manrope alphabet image]()
-
+ - Wireframes
+   - Mobile devices
+      - Home Page. Mobile Screen
+      - About Page. Mobile Screen
+      - Contact Page. Mobile Screen
+      - Response Page. Mobile Screen
+    - Tablets
+     - Home Page. Tablet Screen
+      - About Page. Tablet Screen
+      - Contact Page. Tablet Screen
+      - Response Page. Tablet Screen
+    - Desktop
+     - Home Page. Desktop Screen
+      - About Page. Desktop Screen
+      - Contact Page. Desktop Screen
+      - Response Page. Desktop Screen
+     
  ## TESTING
 
  To confirm the correct functionality, responsiveness, and appearance:
@@ -217,7 +235,7 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
 ![Lighthouse testing image](documentation/lighthouse_response_page.png)
 Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the ![GitHub repository](https://kay13051976.github.io/silsden-computer-tecnology-community.com/), navigate to the Settings tab
+In the [GitHub repository](https://github.com/Kay13051976/silsden-computer-tecnology-community.com) navigate to the Settings tab
 From the source section drop-down menu, select the Main Branch, then click "Save".
 The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here
@@ -225,5 +243,46 @@ Local Deployment
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 git clone https://github.com/IuliiaKonovalova/animal_shelter.git
 Alternatively, if you use Gitpod, you can click here to start the Gitpod workspace.
+ - Future improvements
+   - improve performance
+   - improve the quality of the message
+   - add more icon to navigation bar
+  - Credits
+   - Inspiration for the responsive hamberger navbar from Kevin Powell on his YouTube channel
+   - Inspiration for the README.md file form my mentor Juliia Konovalova
+   - Media
+    - All the images for the website were taken from Unsplash
+    - Hero image
+    - Main icons images
+  - Testimonial Section
+   -
+   -
+   -
+  - Activity images
+   - 
+   - 
+   - 
+   -
+   -
+   -
+   -
+   -
+   -
+  - Tools
+   - Compress JPEG was used to compress JPEG image.
+   - Cooler was used to create the color palette
+   - Color piclker was used to pick the color
+   - 
+   - 
+  - Acknowledgments
+   - Code Institute tutor and Slack community members for their 
+     support and help.
+   - Kevin Powell for his amazing CSS tutorials
+   - Kong Raksiam for his amazing HTML and CSS tutorials
+   - Code Institute mentor Juliia Konovalova for her patient and 
+     answer my question event on the her day off. 
+  
+
+
 ## WIREFRAMES MOBILE DEVICE
 ![wireframes mobile image]()
