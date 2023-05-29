@@ -87,7 +87,7 @@ The website is responsive when it is on mobile view.
 
 - **Header section**
   - Show the logo and the organization name.
-  - Show the nav bar, which is nice  and clear.
+  - Show the nav bar, which is nice and clear.
 
 ![Header](documentation/header.png)
 
@@ -105,7 +105,7 @@ The website is responsive when it is on mobile view.
 
 
 - **Testimonials section**
-  - The testimonials section show feedback from people who had experience using the Silsden computer technology organization.This Section has three feedbacks. Each card has a name,a story of a client with their image. 
+  - The testimonials section show feedback from people who had experience using the Silsden computer technology organization. This Section has three feedbacks. Each card has a name, a story of a client with their image. 
 ![Testimonials template section](documentation/testimonials_template_section.png)
 
 
@@ -207,11 +207,17 @@ No errors or warnings were found when passing through the official W3C (Jigsaw) 
 ![Response html validation](documentation/response_html_validation.png)
 Accessibility and performance
 Using lighthouse in dev tools, I confirmed that the website is performing well, is accessible, and the colours and fonts chosen are readable.
-![light house testing image]()
-
+ - Home page
+![Lighthouse testing image](documentation/lighthouse_home_page.png)
+ - About page
+![Lighthouse testing image](documentation/lighthouse_about_page.png)
+ - Contact page
+![Lighthouse testing image](documentation/lighthouse_contact_page.png)
+ - Response page
+![Lighthouse testing image](documentation/lighthouse_response_page.png)
 Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
+In the ![GitHub repository](https://kay13051976.github.io/silsden-computer-tecnology-community.com/), navigate to the Settings tab
 From the source section drop-down menu, select the Main Branch, then click "Save".
 The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here
