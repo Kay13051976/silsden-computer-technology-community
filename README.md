@@ -188,6 +188,7 @@ Lato Google Font was used as the website's primary font to increase the content'
 The website was tested on the following browsers: Chrome, Firefox, and Brave.
 Chrome:
 - Chrome
+[![asciicast](https://asciinema.org/a/113463.png)](https://asciinema.org/a/113463)
 ![testing clip video]()
 - Firefox
 ![testing clip video]()
@@ -269,7 +270,7 @@ Alternatively, if you use Gitpod, you can click here to start the Gitpod workspa
    -
    -
   - Tools
-   - Compress JPEG was used to compress JPEG image.
+   - Tinypng [Tinypng](https://tinypng.com/) was used to compress JPEG image.
    - Cooler was used to create the color palette
    - Color piclker was used to pick the color
    - 
