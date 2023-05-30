@@ -588,7 +588,6 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin-bottom: 90px;
-
   gap: 70px;
 }
 .gender-detail-box {
@@ -607,7 +606,7 @@ h1 {
 }
 .form-control-label {
   color: #252525;
-  font-size: 1.8rem;
+  font-size: 2rem;
   letter-spacing: 0.2rem;
 }
 .form-control input {
@@ -634,10 +633,10 @@ textarea {
   border-radius: 5px;
   margin-top: 10px;
   max-height: 32em;
+  min-height: 20.1em;
   overflow: auto;
   width: 100%;
   resize: vertical;
-  min-height: 100px;
 }
 textarea:focus {
   outline: 0;
