@@ -188,10 +188,11 @@ h1 {
 }
 
 .main-weekly-agenda-template {
+  flex: 1;
+  flex-wrap: wrap;
   border: 2px solid #ffaf33;
   border-radius: 5px;
   margin: 10px;
-  width: 90%;
   padding: 1em;
   color: #fafafa;
   letter-spacing: 2px;
@@ -201,7 +202,6 @@ h1 {
   cursor: pointer;
   color: #aaa4a4;
   text-decoration: underline;
-
 }
 .main-weekly-agenda-template a:hover {
   border-bottom: 1px solid #fff;
@@ -406,11 +406,12 @@ h1 {
 
 .about-container-organization-story {
   line-height: 50px;
+  letter-spacing: 0.1em;
 }
 .about-container-organization-story p {
   color: #555;
   margin: 30px;
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 0;
 }
 .about-container span {
@@ -450,7 +451,7 @@ h1 {
   margin-left: 2em;
   margin-right: 2em;
   margin-bottom: 2em;
-  border: 3px solid black;
+  border: 3px solid #ffaf33;
 }
 .about-container hr {
   border-top: 3px solid black;
@@ -461,21 +462,36 @@ h1 {
 }
 .about-container-organizational-chart-manager {
   margin-bottom: 30px;
-  align-items: center;
-  justify-content: center;
   list-style: none;
+}
+.about-container-organizational-chart-manager-name{
+  color: #0f0f0f;
+  font-size: 24px;
+}
+.about-container-organizational-chart-manager-position{
+  color: #555;
+  font-size: 22px;
 }
 .about-container-organizational-chart-colleague {
   display: flex;
   flex-direction: row;
   list-style-type: none;
   align-items: center;
-  justify-content: center;
   justify-content: space-between;
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 180px;
   margin-top: 130px;
+}
+.about-container-organizational-chart-colleague-name {
+  color: #0f0f0f;
+  font-size: 22px;
+
+}
+.about-container-organizational-chart-colleague-position{
+  color: #555;
+  font-size: 20px;
+
 }
 .about-container-organizational-chart li {
   align-items: center;
@@ -484,9 +500,8 @@ h1 {
 
 .about-container-organizational-chart p {
   text-align: center;
-  line-height: 28px;
-  font-size: 22px;
-  color: #555;
+  line-height: 2em;
+
 }
 .about-activity-container {
   text-align: center;
@@ -774,16 +789,20 @@ textarea:focus {
   .main-weekly-agenda-template-list {
     display: flex;
     flex-direction: column;
+    width: 90%;
   }
   .main-weekly-agenda-template {
     width: 90%;
-    padding-left: 1.6em;
+    
+    /* padding-left: 1.6em; */
   }
 
   .main-testimonials-template-list {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
   }
 
   .footer-container-template {
