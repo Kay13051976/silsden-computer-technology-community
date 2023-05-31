@@ -4,63 +4,80 @@ Silsden computer technology community.com is the website for people living in Si
 The site can be accessed by the link [a link](https://kay13051976.github.io/silsden-computer-tecnology-community.com/)
 
 ![Responsive image](documentation/responsive_image.png)
-## Use Stories
-First-Time Visitor Goals:
+## User Stories
+### First-Time Visitor Goals:
 - As a First-Time Visitor, I want to quickly understand the site's primary purpose to learn more about the organization.
 - As a first-time visitor, I want to navigate the website to find the content easily.
 - As a First Time Visitor, I want to see the testimonials to see whether the organization is trustworthy.
 - As a first-time visitor, I want to get in touch easily.
 
-Returning Visitor Goals:
--I want to see various support choices, events, and courses as a Returning Visitor.
-- As a Returning Visitor, I want to see information about technology and link to the appropriate study website and event, support choices, Tech career opportunities and make decisions.
+### Returning Visitor Goals:
+- I want to see various support choices, events, and courses as a Returning Visitor.
+- As a Returning Visitor, I want to see information about technology and link to the appropriate study website and event, support choices, tech career opportunities and make decisions.
 
-Frequent Visitor Goals:
+### Frequent Visitor Goals:
 - As a Frequent User, I want to check for any changes with an available course, event, or computer technology news, IT job requirements
 - As a Frequent User, I want options for contacting the organization to get a career opportunity
 
 
 
 ## wireframes 
-
   - Desktop
+
 ![Home page](documentation/wireframe_home_page.png)
 ![About page](documentation/wireframe_about_page.png)
 ![Contact page](documentation/wireframe_contact_page.png)
 ![Response page](documentation/wireframe_response_page.png)
+
+
   - Mobile
-  ![Mbile home page](documentation/wireframe_mobile_home_page1.png)
-   ![Mbile home page](documentation/wireframe_mobile_home_page2.png)
-    ![Mbile home page](documentation/wireframe_mobile_home_page3.png)
-     ![Mbile home page](documentation/wireframe_mobile_home_page4.png)
+
+![Mbile home page](documentation/wireframe_mobile_home_page1.png)
+![Mbile home page](documentation/wireframe_mobile_home_page2.png)
+![Mbile home page](documentation/wireframe_mobile_home_page3.png)
+![Mbile home page](documentation/wireframe_mobile_home_page4.png)
   
 ## logo
+
 ![Logo image](documentation/silsden_computer_technologe_Community_logo.png)
 
-## features
-   ### navbar
 
-   #### navigation
+## features
+  - navbar
+
+    - navigation
    ![nav bar](documentation/nav_bar.png)
-  - Position at the top underneath the logo.
+   **Position at the top underneath the logo.**
     * Home : Lead to the home page, where the user can learn about the organization.
     * About : Lead to the About page where the user can see the purpose of this organization and all the staff, including the community activities gallery of the years.
-    * Contact : Lead to the home page, where the user can see the contact address and social link.
-    * Sign Up : Lead to the form page where the user can sign up to get in touch with the organization
+    * Contact : Lead to the form page where the user can fill the form to get in touch with the organization
     
-     **The navigation bar is straightforward to understand for the user and responsive**
+      *The navigation bar is straightforward to understand for the user and responsive*
      
+
      - **On laptop**
+
       ![Laptop home page](documentation/laptop_home_page1.png)
-       ![Laptop home page](documentation/laptop_home_page2.png)
-        ![Laptop home page](documentation/laptop_home_page3.png)
-         ![Laptop home page](documentation/laptop_home_page4.png)
+      ![Laptop home page](documentation/laptop_home_page2.png)
+      ![Laptop home page](documentation/laptop_home_page3.png)
+      ![Laptop home page](documentation/laptop_home_page4.png)
+
+
      - **On mobile devices**
-      navigation bar filled with the logo in the center and a hamburger menu with the links in the same order.
+       - navigation bar filled with the logo in the center and a hamburger menu with the links in the same order.
+
       ![Mobile home page](documentation/mobile_home_page1.png)
-      When the hamburger menu is clicked, there is dropdown menu with the link in the same order.
+
+
+      *When the hamburger menu is clicked, there is dropdown menu with the link in the same order.*
+
+
       ![Mobile hamburger dropdown]( documentation/mobile_home_page_hamburger_dropdown_menu.png)
-The website is responsive when it is on mobile view.
+
+
+      *The website is responsive when it is on mobile view.*
+
+
  ![Mobile home page](documentation/mobile_home_page1.png)
   ![Mobile home page](documentation/mobile_home_page2.png)
    ![Mobile home page](documentation/mobile_home_page3.png)
@@ -71,7 +88,7 @@ The website is responsive when it is on mobile view.
         ![Mobile home page](documentation/mobile_home_page8.png)
 
    - **On desktop**
-     ![Desktop home page1](documentation/desktop_home_page1.png)
+![Desktop home page1](documentation/desktop_home_page1.png)
 ![Desktop home Page2](documentation/desktop_home_page2.png)
 ![Desktop home page3](documentation/desktop_home_page3.png)
 ![Desktop home page4](documentation/desktop_home_page4.png)
@@ -89,7 +106,7 @@ The website is responsive when it is on mobile view.
   - Show the logo and the organization name.
   - Show the nav bar, which is nice and clear.
 
-![Header](documentation/header.png)
+![Header](documentation/header_navbar.png)
 
 
 - **Hero image section**
@@ -106,26 +123,39 @@ The website is responsive when it is on mobile view.
 
 - **Testimonials section**
   - The testimonials section show feedback from people who had experience using the Silsden computer technology organization. This Section has three feedbacks. Each card has a name, a story of a client with their image. 
+
+
 ![Testimonials template section](documentation/testimonials_template_section.png)
 
 
 - **Contact copyright sponsored section**
   - Show three templates which have information about the contact, copyright and sponsoring, respectively
+
+
 ![contact copy right sponsored](documentation/contact_copyright_sponsored_template_section.png)
 
 
 - **Social link section**
   - The footer contains social media links that open in a new tab.​
-![footer social link](documentation/social_link_section.png)
+
+
+![Footer social link](documentation/social_link_section.png)
 
 ## ABOUT PAGE
- The About page displays all staff images with the manager line. Underneath the organisation chart is the organisation activities picture of the year.
+ The About page displays all staff images with the management line. Underneath the organisation chart is the organisation activities picture of the year.
   - The About page has a hero image showing all the staff standing together
 underneath is the organisation chart showing the management line, which displays the picture of each one and their name. 
   - The organisation activities gallery of the year is responsive, and the photo size depends on the user's screen.  
-  - It has a footer identical to the home page's footer.
-![about page image]()
-## SIGN UP PAGE
+  - It has a footer social link identical to the home for the user experience reason and a paragraph about copyright on the top.
+
+![About page image1](documentation/about_page1.png)
+![About page image2](documentation/about_page2.png)
+![About page image3](documentation/about_page3.png)
+![About page image4](documentation/about_page4.png)
+![About page image5](documentation/about_page5.png)
+
+
+## CONTACT PAGE
 The contact page has a contact form:
  - All text input fields are customized.
  - Labels are animated when the input field is focused and not 
@@ -133,14 +163,25 @@ The contact page has a contact form:
  - All inputs are set to be required to fill out.
  -  The submit button is animated on active.
  - The page is responsive on all standard screen sizes.
+ - The contact form has a big text to fill in and requires a user.
+ - The contact form has a big textarea to fill in requires and a user experience with computers. The 
+   textarea can be extended and responsive on all standard screen sizes.
  - The submit button leads to the response page.​
- ![sign up page image]()
+
+
+ ![Contact page1](documentation/contact_page1.png)
+ ![Contact page1](documentation/contact_page2.png)
+
+
  ## RESPONSE PAGE
  The response page appears after submitting the contact form.
  - It contains the thank you message and the promise to 
    contact the applicant as soon as possible.
  - It will automatically direct the user to the main page in 
    10 seconds.
+
+  ![Response page1](documentation/response_page.png)
+
   ## Technologies Used
 - HTML was used as the foundation of the site.
 - CSS - was used to add the styles and layout of the site.
@@ -150,16 +191,39 @@ The contact page has a contact form:
 - VSCode was used as the primary tool to write and edit code.
 - Git was used for the version control of the website.
 - GitHub was used to host the principle of the website.
-- GIMP was used to make and resize images for the README file.
+- tinyPNG was used to make and resize images for the README file.
 
 ## DESIGN
  - Color Scheme
-The black colour was used as the main colour of the website due to its psychological effect on people's minds. As this colour is associated with trustworthiness and reliability, website visitors could build a firm belief in the organization "Silsden computer technology community."
-![black color image]()
+The grey,black and white colour was used as the main colour of the website due to its psychological effect on people's minds. As this colour is associated with trustworthiness and reliability, website visitors could build a firm belief in the organization "Silsden computer technology community."
+
+
 White Color was used as a background colour since this colour creates a sense of tranquillity and connects the user and the organization.
-![white color image]()
+
+![White colour image](documentation/colour_white1.png)
+![White colour image](documentation/colour_white2.png)
+
+
+
 The black and grey colour was used to emphasize the logo and leave a remarkable effect on the website visitors.
-![gray color image]()
+
+![Black colour image](documentation/colour_black1.png)
+![Black colour image](documentation/colour_black2.png)
+
+
+The grey colour was used for the background and text according to the hero picture and to contrast the text.
+
+![Grey colour image](documentation/colour_grey1.png)
+![Grey colour image](documentation/colour_grey2.png)
+![Grey colour image](documentation/colour_grey3png)
+![Grey colour image](documentation/colour_grey4.png)
+![Grey colour image](documentation/colour_grey5.png)
+![Grey colour image](documentation/colour_grey6.png)
+
+
+
+
+
  - Typography
 Lato Google Font was used as the website's primary font to increase the content's readability.
 ![lato alphabet image]()
