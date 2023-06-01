@@ -215,7 +215,7 @@ The grey colour was used for the background and text according to the hero pictu
 
 ![Grey colour image](documentation/colour_grey1.png)
 ![Grey colour image](documentation/colour_grey2.png)
-![Grey colour image](documentation/colour_grey3png)
+![Grey colour image](documentation/colour_grey3.png)
 ![Grey colour image](documentation/colour_grey4.png)
 ![Grey colour image](documentation/colour_grey5.png)
 ![Grey colour image](documentation/colour_grey6.png)
@@ -225,10 +225,20 @@ The grey colour was used for the background and text according to the hero pictu
 
 
  - Typography
-Lato Google Font was used as the website's primary font to increase the content's readability.
-![lato alphabet image]()
+Lato roboto Google Font was used as the website's primary font to increase the content's readability.
+
+
+![Lato alphabet image](documentation/typography_lato.png)
+![Roboto alphabet image](documentation/typography_roboto.png)
+
+
+
  Manrope Google Font was used to attract viewers' attention to the cover text, accentuate the company's strong points, and incentivize visitors to contact "Silsden computer technology" community.
- ![manrope alphabet image]()
+
+
+![Manrope alphabet image](documentation/typography_manrope.png)
+
+ 
  - Wireframes
    - Mobile devices
       - Home Page. Mobile Screen
