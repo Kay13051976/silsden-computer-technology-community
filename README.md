@@ -363,7 +363,7 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
 - [a link](https://pixabay.com/photos/startup-meeting-brainstorming-594090/)
 - [a link](https://www.istockphoto.com/photo/small-startup-business-team-photo-gm1063813062-284419593?clarity=false)
 - [a link](https://unsplash.com/photos/GkraTrCYA_0)
-- [a link]()
+- [a link](https://unsplash.com/photos/woman-sitting-on-brown-wooden-chair-while-using-silver-laptop-computer-in-room-WHWYBmtn3_0)
 - [a link]()
 - [a link]()
 - [a link]()
