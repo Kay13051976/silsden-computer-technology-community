@@ -340,7 +340,7 @@ Alternatively, if you use Gitpod, you can click here to start the Gitpod workspa
    - [a link](https://pixabay.com/photos/startup-start-up-people-593341/)
    - [a link](https://pixabay.com/photos/startup-meeting-brainstorming-594090/)
    - [a link](https://www.istockphoto.com/photo/small-startup-business-team-photo-gm1063813062-284419593?clarity=false)
-   - [a link]()
+   - [a link](https://unsplash.com/photos/GkraTrCYA_0)
    - [a link]()
    - [a link]()
    - [a link]()

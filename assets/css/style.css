@@ -442,8 +442,9 @@ body {
   background-color: #fff;
   color: #252525;
   margin-top: 110px;
-  font-size: 40px;
+  font-size: 4rem;
 }
+
 .about-container-organizational-chart h3 {
   text-align: center;
   font-size: 36px;
@@ -517,7 +518,10 @@ body {
   color: #252525;
   margin-bottom: 60px;
   text-align: center;
+  
 }
+
+
 .about-activity-container-image {
   justify-content: center;
   align-items: center;
@@ -821,6 +825,14 @@ textarea:focus {
   .footer-container-template {
     display: flex;
     flex-direction: column;
+  }
+  .about-container-organizational-chart > h3 {
+    font-size: 2.8rem;
+  
+  }
+  .about-activity-container > h4 {
+    font-size: 2.8rem;
+  
   }
   .about-container-organization-image-box img {
     display: flex;
