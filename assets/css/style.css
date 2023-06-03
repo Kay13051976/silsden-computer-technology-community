@@ -516,9 +516,7 @@ h1 {
   color: #252525;
   margin-bottom: 60px;
   text-align: center;
-  
 }
-
 
 .about-activity-container-image {
   justify-content: center;
@@ -621,7 +619,7 @@ h1 {
   margin-bottom: 15px;
   border-radius: 5px;
 }
-.text-input {
+.form-control-input {
   font-size: 1.1rem;
   letter-spacing: 0.2rem;
 }
@@ -824,17 +822,15 @@ textarea:focus {
   .contact-container-grid {
     margin: 10px;
   }
-  
+
   .about-page-body {
     margin: 10px;
   }
   .about-container-organizational-chart > h3 {
     font-size: 2.8rem;
-  
   }
   .about-activity-container > h4 {
     font-size: 2.8rem;
-  
   }
   .about-container-organization-image-box img {
     display: flex;
