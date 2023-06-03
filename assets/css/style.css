@@ -405,9 +405,7 @@ h1 {
 /* home page style end here*/
 
 /* about style start */
-body {
-  margin: 10px;
-}
+
 .about-container-organization-story {
   line-height: 50px;
   letter-spacing: 0.1em;
@@ -550,7 +548,6 @@ body {
 /* contact form style start here*/
 .contact-container-grid {
   display: grid;
-  margin: 10px;
 }
 
 .contact-page-main-container {
@@ -680,9 +677,7 @@ textarea:focus {
 }
 /* sign-up style end here*/
 /* response page style start here */
-.response-page-container-grid {
-  margin: 10px;
-}
+
 .response-page {
   display: grid;
   height: auto;
@@ -826,6 +821,13 @@ textarea:focus {
     display: flex;
     flex-direction: column;
   }
+  .contact-container-grid {
+    margin: 10px;
+  }
+  
+  .about-page-body {
+    margin: 10px;
+  }
   .about-container-organizational-chart > h3 {
     font-size: 2.8rem;
   
@@ -864,6 +866,9 @@ textarea:focus {
     gap: 10px;
     align-items: center;
     justify-content: center;
+  }
+  .response-page-container-grid {
+    margin: 10px;
   }
 }
 /* media query end here*/
