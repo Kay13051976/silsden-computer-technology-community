@@ -32,10 +32,10 @@ The site can be accessed by the link [a link](https://kay13051976.github.io/sils
 
   - Mobile
 
-![Mbile home page](documentation/wireframe_mobile_home_page1.png)
-![Mbile home page](documentation/wireframe_mobile_home_page2.png)
-![Mbile home page](documentation/wireframe_mobile_home_page3.png)
-![Mbile home page](documentation/wireframe_mobile_home_page4.png)
+![Mobile home page](documentation/wireframe_mobile_home_page1.png)
+![Mobile home page](documentation/wireframe_mobile_home_page2.png)
+![Mobile home page](documentation/wireframe_mobile_home_page3.png)
+![Mobile home page](documentation/wireframe_mobile_home_page4.png)
   
 ## logo
 
@@ -283,6 +283,8 @@ The website was checked with Responsive Website Design Tester.
 - Mobile-Screens
 ![testing clip video]()
 Validator testing
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+
 HTML
 Home Page
 No errors or warnings were found when passing through the official W3C validator.
