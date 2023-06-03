@@ -101,7 +101,7 @@ h1 {
   text-align: left;
   top: 250%;
   left: 0;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
@@ -112,7 +112,7 @@ h1 {
   padding: 0;
   list-style: none;
 }
-.header-nav-menu li {
+.header-nav-menu .fa-solid .fas li {
   margin-bottom: 1em;
   margin-left: 1em;
 }
@@ -403,7 +403,9 @@ h1 {
 /* home page style end here*/
 
 /* about style start */
-
+body {
+  margin: 10px;
+}
 .about-container-organization-story {
   line-height: 50px;
   letter-spacing: 0.1em;
@@ -540,8 +542,9 @@ h1 {
 /* about style end here*/
 
 /* contact form style start here*/
-.sign-up-container-grid {
+.contact-container-grid {
   display: grid;
+  margin: 10px;
 }
 
 .contact-page-main-container {
@@ -671,6 +674,9 @@ textarea:focus {
 }
 /* sign-up style end here*/
 /* response page style start here */
+.response-page-container-grid {
+  margin: 10px;
+}
 .response-page {
   display: grid;
   height: auto;
@@ -698,6 +704,7 @@ textarea:focus {
   border-radius: 5px;
   text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
 }
+
 /* response page style end here */
 /* media query start here*/
 /* media query header nav start here */
@@ -742,6 +749,9 @@ textarea:focus {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0;
+  }
+  .header-nav-menu i {
+    display: none;
   }
   .header-nav-menu a::before {
     content: "";
@@ -832,7 +842,9 @@ textarea:focus {
     margin-left: auto;
     margin-right: auto;
   }
-
+  .form > h2 {
+    font-size: 1.8em;
+  }
   .footer-social-network-container-list {
     display: flex;
     gap: 10px;
