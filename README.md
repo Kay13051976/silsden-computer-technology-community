@@ -94,7 +94,7 @@ The site can be accessed by the link [a link](https://kay13051976.github.io/sils
 
 ## HOME PAGE
 
-     - Represent : The home page represents the purpose of the organization and shows feedback from satisfied clients, a weekly agenda, a contact address, and a social link, including sponsored
+ Represent : The home page represents the purpose of the organization and shows feedback from satisfied clients, a weekly agenda, a contact address, and a social link, including sponsored.
 
 ![Desktop home page1](documentation/desktop_home_page1.png)
 ![Desktop home Page2](documentation/desktop_home_page2.png)
@@ -139,7 +139,7 @@ The About page displays all staff images with the management line. Underneath th
 - The About page has a hero image showing all the staff standing together
   underneath is the organisation chart showing the management line, which displays the picture of each one and their name.
 - The organisation activities gallery of the year is responsive, and the photo size depends on the user's screen.
-- It has a footer social link identical to the home for the user experience reason and a paragraph about copyright on the top.
+- It has a footer social link identical to the home page for the user experience reason and a paragraph about copyright on the top.
 
 ![About page image1](documentation/about_page1.png)
 ![About page image2](documentation/about_page2.png)
@@ -171,8 +171,7 @@ The response page appears after submitting the contact form.
 
 - It contains the thank you message and the promise to
   contact the applicant as soon as possible.
-- It will automatically direct the user to the main page in
-  10 seconds.
+- The user can redirect to the home page or about page by clicking on the navbar or logo.
 
 ![Response page1](documentation/response_page.png)
 
@@ -183,8 +182,9 @@ The response page appears after submitting the contact form.
 - CSS Flexbox - was used to arrange items symmetrically on the pages.
 - CSS Grid - was used to make "gallery" and "contact" pages responsive.
 - Balsamiq was used to make wireframes for the website.
-- VSCode was used as the primary tool to write and edit code.
+- VSCode was used as the practice tool to write and edit code.
 - Git was used for the version control of the website.
+- Gitpod was used as the primary tool to write and edit the website.
 - GitHub was used to host the principle of the website.
 - tinyPNG was used to make and resize images for the README file.
 
@@ -193,17 +193,19 @@ The response page appears after submitting the contact form.
 - Color Scheme
   The grey,black and white colour was used as the main colour of the website due to its psychological effect on people's minds. As this colour is associated with trustworthiness and reliability, website visitors could build a firm belief in the organization "Silsden computer technology community."
 
-White Color was used as a background colour since this colour creates a sense of tranquillity and connects the user and the organization.
+
+White Color was used as a background shadow colour since this colour creates a sense of tranquillity and certainty that connects the user and the organization.
+
 
 ![White colour image](documentation/colour_white1.png)
 ![White colour image](documentation/colour_white2.png)
 
-The black and grey colour was used to emphasize the logo and leave a remarkable effect on the website visitors.
+The black colour was used to emphasize the logo and header since this colour creates a sense of power, elegance, and formality and leaves  A great impact on website visitors.
 
 ![Black colour image](documentation/colour_black1.png)
 ![Black colour image](documentation/colour_black2.png)
 
-The grey colour was used for the background and text according to the hero picture and to contrast the text.
+The grey colour was used for the background and text according to the hero picture The grey colour was used for the background and text according to the hero picture and to contrast the text. This colour creates a sense of intellect, knowledge, and wisdom and leaves a remarkable effect on website visitors.
 
 ![Grey colour image](documentation/colour_grey1.png)
 ![Grey colour image](documentation/colour_grey2.png)
