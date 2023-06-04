@@ -344,48 +344,50 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
   ![Lighthouse testing image](documentation/lighthouse_contact_page.png)
 - Response page
   ![Lighthouse testing image](documentation/lighthouse_response_page.png)
-  Deployment
+  ## Deployment
   The site was deployed to GitHub pages. The steps to deploy are as follows:
   In the [GitHub repository](https://github.com/Kay13051976/silsden-computer-tecnology-community.com) navigate to the Settings tab
   From the source section drop-down menu, select the Main Branch, then click "Save".
   The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
   The live link can be found here
-  Local Deployment
+  ## Local Deployment
   In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
   git clone https://github.com/Kay13051976/silsden-computer-tecnology-community.com
   Alternatively, if you use Gitpod, you can click 
    [here](https://kay13051976.github.io/silsden-computer-tecnology-community.com/)
    to start the Gitpod workspace.
-- Future improvements 
+### Future improvements 
   - improve performance
   - improve the quality of the message
   - add more animation on css style.
-- Credits
+### Credits
+- Content 
   - Inspiration for the responsive hamberger navbar from Kevin Powell on his YouTube channel
   - Inspiration for the README.md file form my mentor Juliia Konovalova
 - Media
-- All the images for the website were taken from Pixabay, Unsplash
-- Hero image
-  - [a link](https://pixabay.com/photos/startup-start-up-people-593341/)
-  - [a link](https://www.istockphoto.com/photo/small-startup-business-team-photo-gm1063813062-284419593?clarity=false)
+ - All the images for the website were taken from Pixabay, 
+  Unsplash
+ - Hero image
+   - [a link](https://pixabay.com/photos/startup-start-up-people-593341/)
+   - [a link](https://www.istockphoto.com/photo/small-startup-business-team-photo-gm1063813062-284419593?clarity=false)
 - Main icons images take from https://fontawesome.com
 - Testimonial Section
-  - [a link](https://pixabay.com/photos/portrait-outdoor-smiling-developer-2132190/)
-  - [a link](https://pixabay.com/photos/laptop-apple-macbook-computer-2561018/)
-  - [a link](https://pixabay.com/photos/laptop-apple-macbook-computer-2561505/)
+   - [a link](https://pixabay.com/photos/portrait-outdoor-smiling-developer-2132190/)
+   - [a link](https://pixabay.com/photos/laptop-apple-macbook-computer-2561018/)
+   - [a link](https://pixabay.com/photos/laptop-apple-macbook-computer-2561505/)
 
 - Activity images
-  - [a link](https://pixabay.com/photos/startup-meeting-brainstorming-594090/)
-  - [a link](https://unsplash.com/photos/GkraTrCYA_0)
-  - [a link](https://unsplash.com/photos/woman-sitting-on-brown-wooden-chair-while-using-silver-laptop-computer-in-room-WHWYBmtn3_0)
-  - [a link]()
-  - [a link]()
+   - [a link](https://pixabay.com/photos/startup-meeting-brainstorming-594090/)
+   - [a link](https://unsplash.com/photos/GkraTrCYA_0)
+   - [a link](https://unsplash.com/photos/woman-sitting-on-brown-wooden-chair-while-using-silver-laptop-computer-in-room-WHWYBmtn3_0)
+   - [a link]()
+   - [a link]()
 
 
 - Tools
   - [TinyPNG](https://tinypng.com/) was used to compress JPEG image.
-  - Cooler was used to create the color palette.
-  - Color piclker was used to pick the colour.
+  - https://coolors.co/ was used to create the color palette.
+  - https://imagecolorpicker.com/en picker was used to pick the colour.
   - https://icolorpalette.com/ use to create the colour image.
   
 - Acknowledgments
