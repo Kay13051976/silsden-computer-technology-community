@@ -380,8 +380,15 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
    - [a link](https://pixabay.com/photos/startup-meeting-brainstorming-594090/)
    - [a link](https://unsplash.com/photos/GkraTrCYA_0)
    - [a link](https://unsplash.com/photos/woman-sitting-on-brown-wooden-chair-while-using-silver-laptop-computer-in-room-WHWYBmtn3_0)
-   - [a link]()
-   - [a link]()
+   - [a link](https://pixabay.com/photos/children-win-success-video-game-593313/)
+   - [a link](https://pixabay.com/photos/laptops-meeting-businessmen-593296/)
+    - [a link]()
+    - [a link]()
+    - [a link]()
+    - [a link]()
+
+    - [a link]()
+
 
 
 - Tools
