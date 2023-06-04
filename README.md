@@ -337,13 +337,13 @@ Accessibility and performance
 Using lighthouse in dev tools, I confirmed that the website is performing well, is accessible, and the colours and fonts chosen are readable.
 
 - Home page
-  ![Lighthouse testing image](documentation/lighthouse_home_page.png)
+  ![Lighthouse testing image](documentation/lighthouse_home_page_testing.png)
 - About page
-  ![Lighthouse testing image](documentation/lighthouse_about_page.png)
+  ![Lighthouse testing image](documentation/lighthouse_about_page_testing.png)
 - Contact page
-  ![Lighthouse testing image](documentation/lighthouse_contact_page.png)
+  ![Lighthouse testing image](documentation/lighthouse_contact_page_testing.png)
 - Response page
-  ![Lighthouse testing image](documentation/lighthouse_response_page.png)
+  ![Lighthouse testing image](documentation/lighthouse_response_page_testing.png)
   ## Deployment
   The site was deployed to GitHub pages. The steps to deploy are as follows:
   In the [GitHub repository](https://github.com/Kay13051976/silsden-computer-tecnology-community.com) navigate to the Settings tab
