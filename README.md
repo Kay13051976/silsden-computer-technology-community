@@ -390,9 +390,9 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
      - [10th image](https://pixabay.com/photos/people-man-guy-millenials-busy-2569523/)
      - [11th image](https://pixabay.com/photos/squash-sport-man-game-racket-ball-793060/)
 
-     - [12th image]()
+     - [12th image](https://pixabay.com/photos/students-computers-laptops-smiling-1807505/)
 
-     - [13th image]()
+     - [13th image](https://pixabay.com/photos/smiling-teacher-female-college-1280975/)
 
 
  
