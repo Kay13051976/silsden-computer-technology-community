@@ -361,37 +361,38 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
   - improve the quality of the message
   - add more animation on css style.
 ### Credits
-- Content 
+#### Content 
   - Inspiration for the responsive hamberger navbar from Kevin Powell on his YouTube channel
   - Inspiration for the README.md file form my mentor Juliia Konovalova
-- Media
- - All the images for the website were taken from Pixabay, 
-  Unsplash
- - Hero image
-   - [a link](https://pixabay.com/photos/startup-start-up-people-593341/)
-   - [a link](https://www.istockphoto.com/photo/small-startup-business-team-photo-gm1063813062-284419593?clarity=false)
+#### Media
+  - All the images for the website were taken from https://pixabay.com/, 
+  https://unsplash.com/, https://www.istockphoto.com/
+   - Hero image
+   - [1st image](https://pixabay.com/photos/startup-start-up-people-593341/)
+   - [2nd image](https://pixabay.com/photos/iphone-apple-phone-telephone-563069/)
+   - [3rd image](https://www.istockphoto.com/photo/small-startup-business-team-photo-gm1063813062-284419593?clarity=false)
 - Main icons images take from https://fontawesome.com
 - Testimonial Section
-   - [a link](https://pixabay.com/photos/portrait-outdoor-smiling-developer-2132190/)
-   - [a link](https://pixabay.com/photos/laptop-apple-macbook-computer-2561018/)
-   - [a link](https://pixabay.com/photos/laptop-apple-macbook-computer-2561505/)
+   - [1st image](https://pixabay.com/photos/portrait-outdoor-smiling-developer-2132190/)
+   - [2nd image](https://pixabay.com/photos/laptop-apple-macbook-computer-2561018/)
+   - [3rd image](https://pixabay.com/photos/laptop-apple-macbook-computer-2561505/)
 
 - Activity images
-   - [a link](https://pixabay.com/photos/startup-meeting-brainstorming-594090/)
-   - [a link](https://unsplash.com/photos/GkraTrCYA_0)
-   - [a link](https://unsplash.com/photos/woman-sitting-on-brown-wooden-chair-while-using-silver-laptop-computer-in-room-WHWYBmtn3_0)
-   - [a link](https://pixabay.com/photos/children-win-success-video-game-593313/)
-   - [a link](https://pixabay.com/photos/laptops-meeting-businessmen-593296/)
-    - [a link]()
-    - [a link]()
-    - [a link]()
-    - [a link]()
+   - [1st image](https://pixabay.com/photos/startup-meeting-brainstorming-594090/)
+   - [2nd image](https://unsplash.com/photos/GkraTrCYA_0)
+   - [3rd image](https://unsplash.com/photos/woman-sitting-on-brown-wooden-chair-while-using-silver-laptop-computer-in-room-WHWYBmtn3_0)
+   - [4th image](https://pixabay.com/photos/children-win-success-video-game-593313/)
+   - [5th image](https://pixabay.com/photos/laptops-meeting-businessmen-593296/)
+    - [6th image](https://pixabay.com/photos/notebooks-cafe-blog-mobile-569121/)
+    - [7thimage]()
+    - [8th image]()
+    - [9th image]()
 
-    - [a link]()
+ 
 
 
 
-- Tools
+#### Tools
   - [TinyPNG](https://tinypng.com/) was used to compress JPEG image.
   - https://coolors.co/ was used to create the color palette.
   - https://imagecolorpicker.com/en picker was used to pick the colour.
