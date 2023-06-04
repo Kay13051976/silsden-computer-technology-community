@@ -316,17 +316,23 @@ HTML
 Home Page
 No errors or warnings were found when passing through the official W3C validator.
 ![Index html validation](documentation/index_html_validation.png)
+About Page
+No errors or warnings were found when passing through the official W3C validator.
+![About picture](documentation/about_page_html_validation.png)
+
 Contact Page
 No errors or warnings were found when passing through the official W3C validator.
-[W3C picture]()
-Sign Up Page
-No errors or warnings were found when passing through the official W3C validator.
-[W3C picture]()
+![Contact picture](documentation/contact_page_html_validation.png)
 Response Page
+No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
+
+![Response html validation](documentation/response_html_validation.png)
+
 No errors or warnings were found when passing through the official W3C validator.
 CSS
-No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
-![Response html validation](documentation/response_html_validation.png)
+
+![Response html validation](documentation/css_validation.png)
+
 Accessibility and performance
 Using lighthouse in dev tools, I confirmed that the website is performing well, is accessible, and the colours and fonts chosen are readable.
 
@@ -346,65 +352,48 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
   The live link can be found here
   Local Deployment
   In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
-  git clone https://github.com/IuliiaKonovalova/animal_shelter.git
-  Alternatively, if you use Gitpod, you can click here to start the Gitpod workspace.
-- Future improvements
+  git clone https://github.com/Kay13051976/silsden-computer-tecnology-community.com
+  Alternatively, if you use Gitpod, you can click 
+   [here](https://kay13051976.github.io/silsden-computer-tecnology-community.com/)
+   to start the Gitpod workspace.
+- Future improvements 
   - improve performance
   - improve the quality of the message
-  - add more icon to navigation bar
+  - add more animation on css style.
 - Credits
-- Inspiration for the responsive hamberger navbar from Kevin Powell on his YouTube channel
-- Inspiration for the README.md file form my mentor Juliia Konovalova
+  - Inspiration for the responsive hamberger navbar from Kevin Powell on his YouTube channel
+  - Inspiration for the README.md file form my mentor Juliia Konovalova
 - Media
-- All the images for the website were taken from Unsplash
+- All the images for the website were taken from Pixabay, Unsplash
 - Hero image
-- Main icons images
+  - [a link](https://pixabay.com/photos/startup-start-up-people-593341/)
+  - [a link](https://www.istockphoto.com/photo/small-startup-business-team-photo-gm1063813062-284419593?clarity=false)
+- Main icons images take from https://fontawesome.com
 - Testimonial Section
--
--
--
+  - [a link](https://pixabay.com/photos/portrait-outdoor-smiling-developer-2132190/)
+  - [a link](https://pixabay.com/photos/laptop-apple-macbook-computer-2561018/)
+  - [a link](https://pixabay.com/photos/laptop-apple-macbook-computer-2561505/)
+
 - Activity images
-- [a link](https://pixabay.com/photos/portrait-outdoor-smiling-developer-2132190/)
-- [a link](https://pixabay.com/photos/laptop-apple-macbook-computer-2561018/)
-- [a link](https://pixabay.com/photos/laptop-apple-macbook-computer-2561505/)
-- [a link](https://pixabay.com/photos/startup-start-up-people-593341/)
-- [a link](https://pixabay.com/photos/startup-meeting-brainstorming-594090/)
-- [a link](https://www.istockphoto.com/photo/small-startup-business-team-photo-gm1063813062-284419593?clarity=false)
-- [a link](https://unsplash.com/photos/GkraTrCYA_0)
-- [a link](https://unsplash.com/photos/woman-sitting-on-brown-wooden-chair-while-using-silver-laptop-computer-in-room-WHWYBmtn3_0)
-- [a link]()
-- [a link]()
-- [a link]()
-- [a link]()
-- [a link]()
-- [a link]()
+  - [a link](https://pixabay.com/photos/startup-meeting-brainstorming-594090/)
+  - [a link](https://unsplash.com/photos/GkraTrCYA_0)
+  - [a link](https://unsplash.com/photos/woman-sitting-on-brown-wooden-chair-while-using-silver-laptop-computer-in-room-WHWYBmtn3_0)
+  - [a link]()
+  - [a link]()
 
-- [a link]()
 
-- [a link]()
-
-- [a link]()
-
--
--
--
--
--
--
--
--
 - Tools
-- Tinypng [Tinypng](https://tinypng.com/) was used to compress JPEG image.
-- Cooler was used to create the color palette
-- Color piclker was used to pick the color
--
--
+  - [TinyPNG](https://tinypng.com/) was used to compress JPEG image.
+  - Cooler was used to create the color palette.
+  - Color piclker was used to pick the colour.
+  - https://icolorpalette.com/ use to create the colour image.
+  
 - Acknowledgments
-- Code Institute tutor and Slack community members for their
+  - Code Institute tutor and Slack community members for their
   support and help.
-- Kevin Powell for his amazing CSS tutorials
-- Kong Raksiam for his amazing HTML and CSS tutorials
-- Code Institute mentor Juliia Konovalova for her patient and
+  - Kevin Powell for his amazing CSS tutorials
+  - Kong Raksiam for his amazing HTML and CSS tutorials
+  - Code Institute mentor Juliia Konovalova for her patient and
   answer my question event on the her day off.
 
 ## WIREFRAMES MOBILE DEVICE
