@@ -200,7 +200,7 @@ White Color was used as a background shadow colour since this colour creates a s
 ![White colour image](documentation/colour_white1.png)
 ![White colour image](documentation/colour_white2.png)
 
-The black colour was used to emphasize the logo and header since this colour creates a sense of power, elegance, and formality and leaves  A great impact on website visitors.
+The black colour was used to emphasize the logo and header since this colour creates a sense of power, elegance, and formality and leaves A great impact on website visitors.
 
 ![Black colour image](documentation/colour_black1.png)
 ![Black colour image](documentation/colour_black2.png)
@@ -214,6 +214,13 @@ The grey colour was used for the background and text according to the hero pictu
 ![Grey colour image](documentation/colour_grey5.png)
 ![Grey colour image](documentation/colour_grey6.png)
 
+
+The orange colour was used to emphasize the border and hover since this colour creates a sense of energy and visibility to help to navigate the visitors.
+
+
+![Orange colour image](documentation/colour_orange1.png)
+
+
 - Typography
   Lato roboto Google Font was used as the website's primary font to increase the content's readability.
 
@@ -221,6 +228,7 @@ The grey colour was used for the background and text according to the hero pictu
 ![Roboto alphabet image](documentation/typography_roboto.png)
 
 Manrope Google Font was used to attract viewers' attention to the cover text, accentuate the company's strong points, and incentivize visitors to contact "Silsden computer technology" community.
+
 
 ![Manrope alphabet image](documentation/typography_manrope.png)
 
@@ -269,7 +277,7 @@ Chrome:
 - Mobile-Screens
   ![testing clip video]()
   Validator testing
-  [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+  [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt0)
 
 ## MANUAL TESTING
 
