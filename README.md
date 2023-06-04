@@ -384,9 +384,16 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
    - [4th image](https://pixabay.com/photos/children-win-success-video-game-593313/)
    - [5th image](https://pixabay.com/photos/laptops-meeting-businessmen-593296/)
     - [6th image](https://pixabay.com/photos/notebooks-cafe-blog-mobile-569121/)
-    - [7thimage]()
-    - [8th image]()
-    - [9th image]()
+    - [7th image](https://pixabay.com/photos/macbook-laptop-computer-technology-2617419/)
+    - [8th image](https://pixabay.com/photos/typing-work-macbook-laptop-2558213/)
+    - [9th image](https://pixabay.com/photos/workplace-office-business-table-4532322/)
+     - [10th image](https://pixabay.com/photos/people-man-guy-millenials-busy-2569523/)
+     - [11th image](https://pixabay.com/photos/squash-sport-man-game-racket-ball-793060/)
+
+     - [12th image]()
+
+     - [13th image]()
+
 
  
 
