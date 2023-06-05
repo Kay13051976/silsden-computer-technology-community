@@ -198,11 +198,16 @@ h1 {
   padding: 1em;
   color: #fafafa;
   letter-spacing: 2px;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .main-weekly-agenda-template a {
   cursor: pointer;
-  color: #aaa4a4;
+  color: #ffaf33;
   text-decoration: underline;
 }
 .main-weekly-agenda-template a:hover {
