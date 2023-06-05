@@ -801,8 +801,6 @@ textarea:focus {
 /* response page style end here */
 /* media query start here*/
 
-
-
 @media screen and (max-width: 70rem) {
   .body-container {
     height: 100vh;
@@ -855,14 +853,6 @@ textarea:focus {
   .footer-container-template {
     display: flex;
     flex-direction: column;
-  }
-
-  .contact-container-grid {
-    margin: 10px;
-  }
-
-  .about-page-body {
-    margin: 10px;
   }
 
   .about-container-organizational-chart>h3 {

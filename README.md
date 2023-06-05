@@ -277,7 +277,6 @@ Chrome:
 - Mobile-Screens
   ![testing clip video]()
   Validator testing
-  [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt0)
 
 ## MANUAL TESTING
 
