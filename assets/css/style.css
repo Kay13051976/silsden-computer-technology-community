@@ -307,9 +307,11 @@ h1 {
   padding: 0;
   width: 10em;
   height: 10em;
-  object-fit: fill;
+  object-fit:cover;
+  object-position: top;
   margin-bottom: 10%;
 }
+
 
 /* main testimonials  template end here */
 /* main end here */
@@ -842,7 +844,10 @@ textarea:focus {
     margin-right: auto;
     padding-left: 1.6em;
   }
-
+  .main-testimonials-template-list-title {
+    font-size: 3.4rem;
+   
+  }
   .main-testimonials-template-list {
     display: flex;
     flex-direction: column;
