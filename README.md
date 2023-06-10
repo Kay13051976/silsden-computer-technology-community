@@ -85,6 +85,9 @@ The site can be accessed by the link [a link](https://kay13051976.github.io/sils
 ![Mobile home page](documentation/mobile_home_page6.png)
 ![Mobile home page](documentation/mobile_home_page7.png)
 ![Mobile home page](documentation/mobile_home_page8.png)
+![Mobile home page](documentation/mobile_home_page9.png)
+![Mobile home page](documentation/mobile_home_page10.png)
+
 
 - **On desktop**
   ![Desktop home page1](documentation/desktop_home_page1.png)
