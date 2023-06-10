@@ -932,10 +932,9 @@ textarea:focus {
     align-items: center;
     justify-content: center;
   }
-
-  .response-page-container-grid {
-    margin: 10px;
-  }
+    .response-page-container {
+margin: 10px;
+    }
 }
 
 /* media query header nav start here */
