@@ -572,7 +572,9 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-
+.about-container-organization-story p > span{
+  color:#ffaf33
+}
 .about-container-organizational-chart p {
   text-align: center;
   line-height: 2em;
@@ -859,6 +861,9 @@ textarea:focus {
   .footer-container-template {
     display: flex;
     flex-direction: column;
+  }
+  .contact-page-main-container {
+    width: 90%;
   }
   .about-container-organization-story {
     line-height: 34px;
