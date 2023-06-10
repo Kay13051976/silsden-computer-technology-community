@@ -79,7 +79,7 @@ h1 {
 
 .header-nav-toggle-label {
   position: absolute;
-  top: 24px;
+  top: 20px;
   left: 0;
   margin-left: 12px;
   margin-right: 0.8em;
@@ -889,7 +889,7 @@ textarea:focus {
     margin: 2em;
     object-fit: cover;
     object-position: top;
-    margin-left: 10px;
+    margin-left: 3px;
     margin-right: 10px;
   }
   .about-container-organizational-chart-manager {
