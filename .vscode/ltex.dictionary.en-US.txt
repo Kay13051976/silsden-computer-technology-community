@@ -12,3 +12,7 @@ noopener
 noopener
 noopener
 noopener
+fa-github
+fa-linkedin
+fa-microsoft
+fa-wordpress
