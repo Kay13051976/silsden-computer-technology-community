@@ -863,6 +863,9 @@ textarea:focus {
   .about-container-organization-story {
     line-height: 34px;
   }
+  .about-container-organizational-chart {
+    margin-bottom: 0;
+  }
   .about-container-organizational-chart>h3 {
     font-size: 2.8rem;
   }
@@ -870,16 +873,28 @@ textarea:focus {
   .about-activity-container>h4 {
     font-size: 2.8rem;
   }
+  .about-container hr {
+    margin-top: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+  }
 
   .about-container-organization-image-box img {
     display: flex;
-    width: 90%;
+    width: 100%;
     height: auto;
     align-items: center;
+    justify-content: center;
     margin: 2em;
     object-fit: cover;
+    object-position: top;
+    margin-left: 10px;
+    margin-right: 10px;
   }
-
+  .about-container-organizational-chart-manager {
+    margin-bottom: 0;
+  }
   .about-container-organizational-chart-colleague {
     display: flex;
     flex-direction: column;
