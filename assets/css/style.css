@@ -740,7 +740,8 @@ textarea:focus {
 .form-btn {
   cursor: pointer;
   background-color: #f8f9fa;
-  border: 3px solid #252525;
+  border-color: 3px solid #252525;
+  
   border-radius: 5px;
   width: auto;
   text-align: center;
@@ -754,7 +755,8 @@ textarea:focus {
 
 .form button:hover {
   outline: 0;
-  border-color: #ffaf33;
+  background-color:#ffaf33;
+  border-color: 3px solid #c87b07;
 }
 
 .contact-page-footer-container-copy-right {
