@@ -235,17 +235,19 @@ Manrope Google Font was used to attract viewers' attention to the cover text, ac
 
 ![Manrope alphabet image](documentation/typography_manrope.png)
 
-- Wireframes
-  - Mobile devices
-    - Home Page. Mobile Screen
-    - About Page. Mobile Screen
-    - Contact Page. Mobile Screen
-    - Response Page. Mobile Screen
-  - Tablets
-  - Home Page. Tablet Screen
-  - About Page. Tablet Screen
-  - Contact Page. Tablet Screen
-  - Response Page. Tablet Screen
+- Wireframes **Mobile devices**
+  - [Wireframe mobile device homepage1](documentation/wireframe_mobile_home_page1.png)
+  - [Wireframe mobile device homepage2](documentation/wireframe_mobile_home_page2.png)
+  - [Wireframe mobile device homepage3](documentation/wireframe_mobile_home_page3.png)
+  - [Wireframe mobile device homepage4](documentation/wireframe_mobile_home_page4.png)
+  - [Wireframe mobile device about page1](documentation/wireframe_mobile_about_page1.png)
+  - [Wireframe mobile device about page2](documentation/wireframe_mobile_about_page2.png)
+  - [Wireframe mobile device about page3](documentation/wireframe_mobile_about_page3.png)
+  - [Wireframe mobile device contact page1](documentation/wireframe_mobile_contact_page1.png)
+  - [Wireframe mobile device contact page1](documentation/wireframe_mobile_contact_page2.png)
+  - [Wireframe mobile device response page1](documentation/wireframe_mobile_response_page1.png)
+   
+ 
   - Desktop
   - Home Page. Desktop Screen
   - About Page. Desktop Screen
