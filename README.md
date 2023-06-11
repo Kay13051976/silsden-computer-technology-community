@@ -386,13 +386,13 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
    [here](https://kay13051976.github.io/silsden-computer-tecnology-community.com/)
    to start the Gitpod workspace.
 ### Future improvements 
-  - improve performance
-  - improve the quality of the message
+  - improve performance and accessibility.
+  - improve the quality of the message.
   - add more animation on css style.
 ### Credits
 #### Content 
-  - Inspiration for the responsive hamberger navbar from Kevin Powell on his YouTube channel
-  - Inspiration for the README.md file form my mentor Juliia Konovalova
+  - Inspiration for the responsive hamberger navbar from Kevin Powell on his YouTube channel.
+  - Inspiration for the README.md file form my mentor Juliia Konovalova.
 #### Media
   - All the images for the website were taken from https://pixabay.com/, 
   https://unsplash.com/, https://www.istockphoto.com/
@@ -435,8 +435,8 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
 - Acknowledgments
   - Code Institute tutor and Slack community members for their
   support and help.
-  - Kevin Powell for his amazing CSS tutorials
-  - Kong Raksiam for his amazing HTML and CSS tutorials
+  - Kevin Powell for his amazing CSS tutorials.
+  - Kong Raksiam for his amazing HTML and CSS tutorials.
   - Code Institute mentor Juliia Konovalova for her patient and
   answer my question even on her day off.
 
