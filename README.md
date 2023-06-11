@@ -266,6 +266,17 @@ The website was tested on the following browsers: Chrome, Firefox, and Brave.
  - [ mobile full page viewer](documentation/mobile_full_page_viewer.png)
  - [laptop full page viewer](documentation/laptop_full_page_viewer.png)
 
+### Firefox:
+ - [Firefox tablet home page view](documentation/firefox_tablet_home_page_view.png)
+ - [Firefox tablet about page view](documentation/firefox_tablet_about_page_view.png)
+ - [Firefox tablet contact page view](documentation/firefox_tablet_contact_page_view.png)
+ - [Firefox tablet response page view](documentation/firefox_tablet_response_page_view.png)
+
+ ### Brave:
+ - [Brave tablet home page view](documentation/brave_tablet_home_page_view.png)
+ - [Brave tablet about page view](documentation/brave_tablet_about_page_view.png)
+  - [Brave tablet contact page view](documentation/brave_tablet_contact_page_view.png)
+   - [Brave tablet response page view](documentation/brave_tablet_response_page_view.png)
 
 ## MANUAL TESTING
 
