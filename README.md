@@ -254,7 +254,16 @@ Manrope Google Font was used to attract viewers' attention to the cover text, ac
   - [Wireframe desktop contact page](documentation/wireframe_contact_page.png)
   - [Wireframe desktop response page](documentation/wireframe_response_page.png)
  
-
+- Wireframes **Tablet**
+  - [Wireframe tablet home page1](documentation/wireframe_tablet_home_page1.png)
+  - [Wireframe tablet home page2](documentation/wireframe_tablet_home_page2.png)
+  - [Wireframe tablet home page3](documentation/wireframe_tablet_home_page3.png)
+  - [Wireframe tablet about page1](documentation/wireframe_tablet_about_page1.png)
+  - [Wireframe tablet about page2](documentation/wireframe_tablet_about_page2.png)
+  - [Wireframe tablet about page3](documentation/wireframe_tablet_about_page3.png)
+  - [Wireframe tablet about page4](documentation/wireframe_tablet_about_page4.png)
+  - [Wireframe tablet contact page1](documentation/wireframe_tablet_contact_page1.png)
+  - [Wireframe tablet response page1](documentation/wireframe_tablet_response_page1.png)
 ## TESTING
 
 To confirm the correct functionality, responsiveness, and appearance:
