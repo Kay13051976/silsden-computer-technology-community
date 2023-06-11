@@ -276,16 +276,19 @@ The website was tested on the following browsers: Chrome, Firefox, and Brave.
  - [laptop full page viewer](documentation/laptop_full_page_viewer.png)
 
 ### Firefox:
- - [Firefox notebook home page view](documentation/firefox_notebook_home_page_view.png)
- - [Firefox notebook about page view](documentation/firefox_notebook_about_page_view.png)
- - [Firefox notebook contact page view](documentation/firefox_notebook_contact_page_view.png)
- - [Firefox notebook response page view](documentation/firefox_notebook_response_page_view.png)
+ - [Firefox laptop home page view1](documentation/firefox_laptop_home_page_view1.png)
+ - [Firefox laptop home page view2](documentation/firefox_laptop_home_page_view2.png)
+ - [Firefox laptop home page view3](documentation/firefox_laptop_home_page_view3.png)
+ - [Firefox laptop home page view4](documentation/firefox_laptop_home_page_view4.png)
+ - [Firefox laptop about page view](documentation/firefox_laptop_about_page_view.png)
+ - [Firefox laptop contact page view](documentation/firefox_laptop_contact_page_view.png)
+ - [Firefox laptop response page view](documentation/firefox_laptop_response_page_view.png)
 
  ### Brave:
- - [Brave notebook home page view](documentation/brave_notebook_home_page_view.png)
- - [Brave notebook about page view](documentation/brave_notebook_about_page_view.png)
-  - [Brave tablet contact page view](documentation/brave_notebook_contact_page_view.png)
-   - [Brave tablet response page view](documentation/brave_notebook_response_page_view.png)
+ - [Brave laptop home page view](documentation/brave_laptop_home_page_view.png)
+ - [Brave laptop about page view](documentation/brave_laptop_about_page_view.png)
+  - [Brave laptop contact page view](documentation/brave_laptop_contact_page_view.png)
+   - [Brave laptop response page view](documentation/brave_laptop_response_page_view.png)
 
 ## MANUAL TESTING
 
