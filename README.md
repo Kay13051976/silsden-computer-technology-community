@@ -248,40 +248,24 @@ Manrope Google Font was used to attract viewers' attention to the cover text, ac
   - [Wireframe mobile device response page1](documentation/wireframe_mobile_response_page1.png)
    
  
-  - Desktop
-  - Home Page. Desktop Screen
-  - About Page. Desktop Screen
-  - Contact Page. Desktop Screen
-  - Response Page. Desktop Screen
+- Wireframes **Desktop**
+  - [Wireframe desktop homepage](documentation/wireframe_home_page.png)
+  - [Wireframe desktop about page](documentation/wireframe_about_page.png)
+  - [Wireframe desktop contact page](documentation/wireframe_contact_page.png)
+  - [Wireframe desktop response page](documentation/wireframe_response_page.png)
+ 
 
 ## TESTING
 
 To confirm the correct functionality, responsiveness, and appearance:
 The website was tested on the following browsers: Chrome, Firefox, and Brave.
-Chrome:
+### Chrome:
 
-- Chrome
-  [![asciicast](https://asciinema.org/a/113463.png)](https://asciinema.org/a/113463)
-  ![testing clip video]()
-- Firefox
-  ![testing clip video]()
-- Brave
-  ![testing clip video]()
-  The website was checked by dev tools implemented in Firefox and Chrome browsers.
-- Main Page:
-  ![testing clip video]()
-- About Page
-  ![testing clip video]()
-- Sign Up Page
-  ![testing clip video]()
-  The website was checked with Responsive Website Design Tester.
-- Desktop-Screens:
-  ![testing clip video]()
-- Laptop-Screens
-  ![testing clip video]()
-- Mobile-Screens
-  ![testing clip video]()
-  Validator testing
+ - [ desktop full page viewer](documentation/desktop_full_page_viewer.png)
+ - [ tablet full page viewer](documentation/tablet_full_page_viewer.png)
+ - [ mobile full page viewer](documentation/mobile_full_page_viewer.png)
+ - [laptop full page viewer](documentation/laptop_full_page_viewer.png)
+
 
 ## MANUAL TESTING
 
