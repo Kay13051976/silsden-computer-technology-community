@@ -247,7 +247,6 @@ Manrope Google Font was used to attract viewers' attention to the cover text, ac
   - [Wireframe mobile device contact page1](documentation/wireframe_mobile_contact_page2.png)
   - [Wireframe mobile device response page1](documentation/wireframe_mobile_response_page1.png)
    
- 
 - Wireframes **Desktop**
   - [Wireframe desktop homepage](documentation/wireframe_home_page.png)
   - [Wireframe desktop about page](documentation/wireframe_about_page.png)
@@ -285,10 +284,13 @@ The website was tested on the following browsers: Chrome, Firefox, and Brave.
  - [Firefox laptop response page view](documentation/firefox_laptop_response_page_view.png)
 
  ### Brave:
- - [Brave laptop home page view](documentation/brave_laptop_home_page_view.png)
+ - [Brave laptop home page view1](documentation/brave_laptop_home_page_view1.png)
+ - [Brave laptop home page view2](documentation/brave_laptop_home_page_view2.png)
+ - [Brave laptop home page view3](documentation/brave_laptop_home_page_view3.png)
+ - [Brave laptop home page view4](documentation/brave_laptop_home_page_view4.png)
  - [Brave laptop about page view](documentation/brave_laptop_about_page_view.png)
-  - [Brave laptop contact page view](documentation/brave_laptop_contact_page_view.png)
-   - [Brave laptop response page view](documentation/brave_laptop_response_page_view.png)
+ - [Brave laptop contact page view](documentation/brave_laptop_contact_page_view.png)
+ - [Brave laptop response page view](documentation/brave_laptop_response_page_view.png)
 
 ## MANUAL TESTING
 
@@ -323,7 +325,7 @@ The website was tested on the following browsers: Chrome, Firefox, and Brave.
 
 
 
-HTML
+## HTML
 Home Page
 No errors or warnings were found when passing through the official W3C validator.
 ![Index html validation](documentation/index_html_validation.png)
@@ -339,10 +341,17 @@ No errors or warnings were found when passing through the official W3C (Jigsaw) 
 
 ![Response html validation](documentation/response_html_validation.png)
 
-No errors or warnings were found when passing through the official W3C validator.
-CSS
+## CSS
+ No errors or warnings were found when passing through the official W3C validator.
+![Css validation by direct input](documentation/css_validation_by_direct_input.png)[here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FKay13051976%2Fsilsden-computer-tecnology-community.com%2Ftree%2Fmain%2Fassets%2Fcss&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-![Response html validation](documentation/css_validation_2023-06-04-at-10.15.26.png)
+
+but when using URL it was 1124 found. Even though error is present, I don't believe it is 100% accurate, and more information con be found [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FKay13051976%2Fsilsden-computer-tecnology-community.com%2Ftree%2Fmain%2Fassets%2Fcss&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![Css validation by URL](documentation/css_validation_by_url.png)
+
+
+
 
 Accessibility and performance
 Using lighthouse in dev tools, I confirmed that the website is performing well, is accessible, and the colours and fonts chosen are readable.
@@ -355,6 +364,7 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
   ![Lighthouse testing image](documentation/lighthouse_contact_page_testing.png)
 - Response page
   ![Lighthouse testing image](documentation/lighthouse_response_page_testing.png)
+
   ## Deployment
   The site was deployed to GitHub pages. The steps to deploy are as follows:
   In the [GitHub repository](https://github.com/Kay13051976/silsden-computer-tecnology-community.com) navigate to the Settings tab
@@ -394,16 +404,14 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
    - [3rd image](https://unsplash.com/photos/woman-sitting-on-brown-wooden-chair-while-using-silver-laptop-computer-in-room-WHWYBmtn3_0)
    - [4th image](https://pixabay.com/photos/children-win-success-video-game-593313/)
    - [5th image](https://pixabay.com/photos/laptops-meeting-businessmen-593296/)
-    - [6th image](https://pixabay.com/photos/notebooks-cafe-blog-mobile-569121/)
-    - [7th image](https://pixabay.com/photos/macbook-laptop-computer-technology-2617419/)
-    - [8th image](https://pixabay.com/photos/typing-work-macbook-laptop-2558213/)
-    - [9th image](https://pixabay.com/photos/workplace-office-business-table-4532322/)
-     - [10th image](https://pixabay.com/photos/people-man-guy-millenials-busy-2569523/)
-     - [11th image](https://pixabay.com/photos/squash-sport-man-game-racket-ball-793060/)
-
-     - [12th image](https://pixabay.com/photos/students-computers-laptops-smiling-1807505/)
-
-     - [13th image](https://pixabay.com/photos/smiling-teacher-female-college-1280975/)
+   - [6th image](https://pixabay.com/photos/notebooks-cafe-blog-mobile-569121/)
+   - [7th image](https://pixabay.com/photos/macbook-laptop-computer-technology-2617419/)
+   - [8th image](https://pixabay.com/photos/typing-work-macbook-laptop-2558213/)
+   - [9th image](https://pixabay.com/photos/workplace-office-business-table-4532322/)
+   - [10th image](https://pixabay.com/photos/people-man-guy-millenials-busy-2569523/)
+   - [11th image](https://pixabay.com/photos/squash-sport-man-game-racket-ball-793060/)
+   - [12th image](https://pixabay.com/photos/students-computers-laptops-smiling-1807505/)
+   - [13th image](https://pixabay.com/photos/smiling-teacher-female-college-1280975/)
 
 
  
@@ -424,5 +432,4 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
   - Code Institute mentor Juliia Konovalova for her patient and
   answer my question event on the her day off.
 
-## WIREFRAMES MOBILE DEVICE
-![wireframes mobile image]()
+
