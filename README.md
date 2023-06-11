@@ -53,9 +53,9 @@ The site can be accessed by the link [a link](https://kay13051976.github.io/sils
     ![nav bar](documentation/nav_bar.png)
     **Position at the top underneath the logo.**
 
-  * Home : Lead to the home page, where the user can learn about the organization.
-  * About : Lead to the About page where the user can see the purpose of this organization and all the staff, including the community activities gallery of the years.
-  * Contact : Lead to the form page where the user can fill the form to get in touch with the organization
+  * Home: Lead to the home page, where the user can learn about the organization.
+  * About: Lead to the About page where the user can see the purpose of this organization and all the staff, including the community activities gallery of the years.
+  * Contact: Lead to the form page where the user can fill the form to get in touch with the organization
 
     _The navigation bar is straightforward to understand for the user and responsive_
 
@@ -67,11 +67,11 @@ The site can be accessed by the link [a link](https://kay13051976.github.io/sils
   ![Laptop home page](documentation/laptop_home_page4.png)
 
   - **On mobile devices**
-    - navigation bar filled with the logo in the center and a hamburger menu with the links in the same order.
+    - navigation bar filled with the logo in the centre and a hamburger menu with the links in the same order.
 
   ![Mobile home page](documentation/mobile_home_page1.png)
 
-  _When the hamburger menu is clicked, there is dropdown menu with the link in the same order._
+  _When the hamburger menu is clicked, there is a dropdown menu with the link in the same order._
 
   ![Mobile hamburger dropdown](documentation/mobile_home_page_hamburger_dropdown_menu.png)
 
@@ -97,7 +97,7 @@ The site can be accessed by the link [a link](https://kay13051976.github.io/sils
 
 ## HOME PAGE
 
- Represent : The home page represents the purpose of the organization and shows feedback from satisfied clients, a weekly agenda, a contact address, and a social link, including sponsored.
+ Represent: The home page represents the purpose of the organization and shows feedback from satisfied clients, a weekly agenda, a contact address, and a social link, including sponsored.
 
 ![Desktop home page1](documentation/desktop_home_page1.png)
 ![Desktop home Page2](documentation/desktop_home_page2.png)
@@ -111,7 +111,7 @@ The site can be accessed by the link [a link](https://kay13051976.github.io/sils
 ![Header](documentation/header_navbar.png)
 
 - **Hero image section**
-  - The hero section has a fixed background image and text that show the benefit of computer technology.
+  - The hero section has a fixed background image and text that shows the benefit of computer technology.
 
 ![Hero image](documentation/hero_image.png)
 
@@ -121,7 +121,7 @@ The site can be accessed by the link [a link](https://kay13051976.github.io/sils
 ![Weekly agenda section](documentation/weekly_agenda_section.png)
 
 - **Testimonials section**
-  - The testimonials section show feedback from people who had experience using the Silsden computer technology organization. This Section has three feedbacks. Each card has a name, a story of a client with their image.
+  - The testimonials section shows feedback from people who had experience using the Silsden computer technology organization. This Section has three feedbacks. Each card has a name, and a client's story with their image.
 
 ![Testimonials template section](documentation/testimonials_template_section.png)
 
@@ -161,7 +161,7 @@ The contact page has a contact form:
 - The submit button is animated on active.
 - The page is responsive on all standard screen sizes.
 - The contact form has a big text to fill in and requires a user.
-- The contact form has a big textarea to fill in requires and a user experience with computers. The
+- The contact form has a big textarea to fill in requirements and a user experience with computers. The
   textarea can be extended and responsive on all standard screen sizes.
 - The submit button leads to the response page.​
 
@@ -400,7 +400,7 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
    - [1st image](https://pixabay.com/photos/startup-start-up-people-593341/)
    - [2nd image](https://pixabay.com/photos/iphone-apple-phone-telephone-563069/)
    - [3rd image](https://www.istockphoto.com/photo/small-startup-business-team-photo-gm1063813062-284419593?clarity=false)
-- Main icons images take from https://fontawesome.com
+- Main icons images taken from https://fontawesome.com
 - Testimonial Section
    - [1st image](https://pixabay.com/photos/portrait-outdoor-smiling-developer-2132190/)
    - [2nd image](https://pixabay.com/photos/laptop-apple-macbook-computer-2561018/)
@@ -427,7 +427,7 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
 
 
 #### Tools
-  - [TinyPNG](https://tinypng.com/) was used to compress JPEG image.
+  - [TinyPNG](https://tinypng.com/) was used to compress JPEG images.
   - https://coolors.co/ was used to create the color palette.
   - https://imagecolorpicker.com/en picker was used to pick the colour.
   - https://icolorpalette.com/ use to create the colour image.
@@ -438,6 +438,6 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
   - Kevin Powell for his amazing CSS tutorials
   - Kong Raksiam for his amazing HTML and CSS tutorials
   - Code Institute mentor Juliia Konovalova for her patient and
-  answer my question event on the her day off.
+  answer my question even on her day off.
 
 
