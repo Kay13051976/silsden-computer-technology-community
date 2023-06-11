@@ -279,8 +279,10 @@ The website was tested on the following browsers: Chrome, Firefox, and Brave.
  - [Firefox laptop home page view2](documentation/firefox_laptop_home_page_view2.png)
  - [Firefox laptop home page view3](documentation/firefox_laptop_home_page_view3.png)
  - [Firefox laptop home page view4](documentation/firefox_laptop_home_page_view4.png)
- - [Firefox laptop about page view](documentation/firefox_laptop_about_page_view.png)
- - [Firefox laptop contact page view](documentation/firefox_laptop_contact_page_view.png)
+ - [Firefox laptop about page view1](documentation/firefox_laptop_about_page_view1.png)
+ - [Firefox laptop contact page view1](documentation/firefox_laptop_contact_page_view1.png)
+ - [Firefox laptop contact page view2](documentation/firefox_laptop_contact_page_view2.png)
+ - [Firefox laptop contact page view3](documentation/firefox_laptop_contact_page_view3.png)
  - [Firefox laptop response page view](documentation/firefox_laptop_response_page_view.png)
 
  ### Brave:
@@ -288,9 +290,15 @@ The website was tested on the following browsers: Chrome, Firefox, and Brave.
  - [Brave laptop home page view2](documentation/brave_laptop_home_page_view2.png)
  - [Brave laptop home page view3](documentation/brave_laptop_home_page_view3.png)
  - [Brave laptop home page view4](documentation/brave_laptop_home_page_view4.png)
- - [Brave laptop about page view](documentation/brave_laptop_about_page_view.png)
- - [Brave laptop contact page view](documentation/brave_laptop_contact_page_view.png)
- - [Brave laptop response page view](documentation/brave_laptop_response_page_view.png)
+ - [Brave laptop about page view1](documentation/brave_laptop_about_page_view1.png)
+ - [Brave laptop about page view2](documentation/brave_laptop_about_page_view2.png)
+ - [Brave laptop about page view3](documentation/brave_laptop_about_page_view3.png)
+ - [Brave laptop about page view4](documentation/brave_laptop_about_page_view4.png)
+ - [Brave laptop about page view5](documentation/brave_laptop_about_page_view5.png)
+ - [Brave laptop about page view6](documentation/brave_laptop_about_page_view6.png)
+ - [Brave laptop contact page view1](documentation/brave_laptop_contact_page_view1.png)
+ - [Brave laptop contact page view2](documentation/brave_laptop_contact_page_view2.png)
+ - [Brave laptop response page view1](documentation/brave_laptop_response_page_view1.png)
 
 ## MANUAL TESTING
 
