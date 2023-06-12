@@ -244,7 +244,7 @@ Manrope Google Font was used to attract viewers' attention to the cover text, ac
   - [Wireframe mobile device about page2](documentation/wireframe_mobile_about_page2.png)
   - [Wireframe mobile device about page3](documentation/wireframe_mobile_about_page3.png)
   - [Wireframe mobile device contact page1](documentation/wireframe_mobile_contact_page1.png)
-  - [Wireframe mobile device contact page1](documentation/wireframe_mobile_contact_page2.png)
+  - [Wireframe mobile device contact page2](documentation/wireframe_mobile_contact_page2.png)
   - [Wireframe mobile device response page1](documentation/wireframe_mobile_response_page1.png)
    
 - Wireframes **Desktop**
@@ -381,7 +381,7 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
   The live link can be found here
   ## Local Deployment
   In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
-  git clone https://github.com/Kay13051976/silsden-computer-tecnology-community.com
+  git clone `https://github.com/Kay13051976/silsden-computer-tecnology-community.com`
   Alternatively, if you use Gitpod, you can click 
    [here](https://kay13051976.github.io/silsden-computer-tecnology-community.com/)
    to start the Gitpod workspace.
