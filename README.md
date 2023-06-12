@@ -379,7 +379,7 @@ Using lighthouse in dev tools, I confirmed that the website is performing well, 
   The live link can be found here
   ## Local Deployment
   In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
-  git clone `https://github.com/Kay13051976/silsden-computer-tecnology-community.com`
+  `git clone https://github.com/Kay13051976/silsden-computer-tecnology-community.com`
   Alternatively, if you use Gitpod, you can click 
    [here](https://kay13051976.github.io/silsden-computer-tecnology-community.com/)
    to start the Gitpod workspace.
