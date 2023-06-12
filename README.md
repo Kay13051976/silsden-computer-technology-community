@@ -353,9 +353,7 @@ No errors or warnings were found when passing through the official W3C (Jigsaw) 
  No errors or warnings were found when passing through the official W3C validator.
 ![Css validation by direct input](documentation/css_validation_by_direct_input.png)[here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FKay13051976%2Fsilsden-computer-tecnology-community.com%2Ftree%2Fmain%2Fassets%2Fcss&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-
-but when using URL it was 1124 found. Even though error is present, I don't believe it is 100% accurate, and more information con be found [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FKay13051976%2Fsilsden-computer-tecnology-community.com%2Ftree%2Fmain%2Fassets%2Fcss&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-
+When using the URL, No errors or warnings were found When passing Through the official W3C validator.
 ![Css validation by URL](documentation/css_validation_by_url.png)
 
 
