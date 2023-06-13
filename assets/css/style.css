@@ -243,6 +243,7 @@ h1 {
   color: #fff;
   text-decoration: underline;
 }
+
 /* weekly agenda template style end here */
 
 /* testimonials style start here*/
@@ -488,12 +489,14 @@ h1 {
   font-size: 36px;
   color: #0f0f0f;
 }
+
 .about-container-organization-image-box {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
+
 .about-container-organization-image-box img {
   display: flex;
   width: 100%;
@@ -502,7 +505,6 @@ h1 {
   margin-top: 60px;
   object-fit: cover;
 }
-
 
 .about-container h2 {
   background-color: #fff;
@@ -898,12 +900,14 @@ textarea:focus {
     margin-right: 2em;
     margin-bottom: 3em;
   }
+
   .about-container-organization-image-box {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
   }
+
   .about-container-organization-image-box img {
     display: flex;
     width: 100%;
@@ -912,7 +916,7 @@ textarea:focus {
     justify-content: center;
     margin-bottom: 2em;
     object-fit: cover;
- 
+
   }
 
   .about-container-organizational-chart-manager {
