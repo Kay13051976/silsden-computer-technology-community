@@ -609,7 +609,7 @@ h1 {
   margin-top: 2em;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 250px));
+  grid-template-columns: repeat(auto-fill, minmax(350px, auto));
   column-gap: 15px;
   row-gap: 15px;
 }
@@ -625,9 +625,8 @@ h1 {
   margin-top: 40px;
   padding: 20px;
   text-align: center;
+  width: 100%;
 }
-
-.about-page-footer-container {}
 
 /* about style end here*/
 
