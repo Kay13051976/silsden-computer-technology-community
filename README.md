@@ -339,7 +339,9 @@ No errors or warnings were found when passing through the official W3C validator
 ![Index html validation](documentation/index_html_validation.png)
 About Page
 No errors or warnings were found when passing through the official W3C validator.
-![About picture](documentation/about_page_html_validation.png)
+![About picture1](documentation/about_page_html_validation1.png)
+![About picture2](documentation/about_page_html_validation2.png)
+![About picture3](documentation/about_page_html_validation3.png)
 
 Contact Page
 No errors or warnings were found when passing through the official W3C validator.
